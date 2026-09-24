@@ -18,7 +18,7 @@
 
 ## forge — 从零手写的算法实验室
 
-38 个算法，**零依赖 · 零构建 · 单文件 HTML**。浏览器打开即运行，Node 无头自检全绿。
+**40 个算法实验室**（38 个 forge + 2 个 lab），**零依赖 · 零构建 · 单文件 HTML**。浏览器打开即运行，Node 无头自检全绿。
 
 不是调库 Demo。每个 forge 都留了一条能被交叉验证的硬标准：解析解对数值解、暴力枚举对贪心、KKT 互补松弛、Bellman 残差收敛……
 
@@ -38,6 +38,10 @@
 | [loom](https://github.com/CJX0712/loom) | MCP 原生的本地智能体运行时 —— Ollama / MCP / crawl4ai 组装成真正会干活的 Agent |
 | [aetheros](https://github.com/CJX0712/aetheros) | 默认拒答无出处断言的 Agent Runtime |
 | [tekmor](https://github.com/CJX0712/tekmor) | 证据锚定的 RAG 知识库，配套单文件控制台 |
+| [dialectica-ai](https://github.com/CJX0712/dialectica-ai) | 辩衡 —— 证据锚定、可证收敛的多智能体审议推理 |
+| [evolver](https://github.com/CJX0712/evolver) | 智能体自进化层 —— 技能 / 踩坑蒸馏 + 对照组基准 |
+| [aurora](https://github.com/CJX0712/aurora) | 纯本机 CPU 推理的自主智能体（llama.cpp + Qwen2.5 + RAG + ReAct） |
+| [hyperion-ai](https://github.com/CJX0712/hyperion-ai) | 双引擎 AI 系统：Python 训练 / TS 零依赖推理 |
 | [morningstar-ai-collab](https://github.com/CJX0712/morningstar-ai-collab) | 可自托管的 AI 原生团队协作平台，全栈 TypeScript |
 
 ## 单文件工具
