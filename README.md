@@ -118,41 +118,41 @@
 **本地优先 RAG 系统**（9）
 
 - [`worldai`](https://github.com/CJX0712/worldai) — 本地优先、CPU 可跑、一键复现的 RAG + Agent 平台
-- [`worldai-nexus`](https://github.com/CJX0712/worldai-nexus) — 模块化端到端 AI 系统实验（RAG + Agent）
+- [`worldai-nexus`](https://github.com/CJX0712/worldai-nexus) — 入库 → 混合检索 → 工具路由 → 生成；默认零依赖 Mock，可切 OpenAI 兼容 / GGUF
 - [`worldai-rag`](https://github.com/CJX0712/worldai-rag) — faiss + BM25 混合检索 / ONNX 重排 / GGUF 本地推理
-- [`worldai-stack`](https://github.com/CJX0712/worldai-stack) — 端到端可运行 RAG + ReAct 智能体系统
-- [`worldrag`](https://github.com/CJX0712/worldrag) — 本地优先的 RAG 知识库实验
-- [`starlight-ai-stack`](https://github.com/CJX0712/starlight-ai-stack) — 摄取 / 混合检索 / 引用生成，模块可独立验证
-- [`starlight-rag`](https://github.com/CJX0712/starlight-rag) — 本地优先的检索增强生成系统
+- [`worldai-stack`](https://github.com/CJX0712/worldai-stack) — FastEmbed(ONNX) / FAISS / Rank-BM25 / llama.cpp，模块只依赖 Protocol
+- [`worldrag`](https://github.com/CJX0712/worldrag) — CJK 单字+双字 BM25（零依赖 tokenizer）+ 向量双路召回，独立索引评测 recall@k / MRR
+- [`starlight-ai-stack`](https://github.com/CJX0712/starlight-ai-stack) — 摄取 → 混合检索 → 引用生成，无 GPU 的 Windows 机器上可全程跑通
+- [`starlight-rag`](https://github.com/CJX0712/starlight-rag) — BM25 + 向量双路召回 RRF 融合；重排权重封顶 50%，免 GPU、无 torch
 - [`novamind`](https://github.com/CJX0712/novamind) — 协议优先、离线可验的端到端 RAG Agent
-- [`novamind-rag`](https://github.com/CJX0712/novamind-rag) — 混合检索 + 引用生成的问答系统
+- [`novamind-rag`](https://github.com/CJX0712/novamind-rag) — FAISS + BM25 双路召回，ONNX cross-encoder 按 0.3 加权融合，带 AST 安全计算器
 
 **模块化 AI 系统与平台**（17）
 
-- [`aether-ai-core`](https://github.com/CJX0712/aether-ai-core) — 模块化端到端 AI 系统框架（RAG + Agent），锁版一键复现
-- [`aether-ai-core-v2`](https://github.com/CJX0712/aether-ai-core-v2) — Aether 智核 · 模块化 RAG + Agent 实验（CPU 可跑）
+- [`aether-ai-core`](https://github.com/CJX0712/aether-ai-core) — 把「文档摄取 → 向量召回 → 生成 → 工具调用」切成 10 个职责单一的模块
+- [`aether-ai-core-v2`](https://github.com/CJX0712/aether-ai-core-v2) — 晨星智核 v2：默认栈零重依赖，Chroma / FAISS / vLLM·Ollama 以适配器即插即用
 - [`atlas-ai-stack`](https://github.com/CJX0712/atlas-ai-stack) — 混合检索 + 守卫式跨域问答
-- [`chenxing-ai-stack`](https://github.com/CJX0712/chenxing-ai-stack) — 企业级 RAG/Agent 平台 · 单一职责模块化架构
-- [`helix-ai-engine`](https://github.com/CJX0712/helix-ai-engine) — provider-agnostic 的 AI 编排引擎（RAG + 工具型 Agent）
-- [`lumen-ai`](https://github.com/CJX0712/lumen-ai) — 模块化 RAG + Agent + Tools，可插拔后端
+- [`chenxing-ai-stack`](https://github.com/CJX0712/chenxing-ai-stack) — 覆盖「摄入 → 向量化 → 召回 → 重排 → 编排 → 推理 → 服务 → 观测」全链路
+- [`helix-ai-engine`](https://github.com/CJX0712/helix-ai-engine) — Provider-agnostic 编排引擎：RAG + 工具型 Agent，模块间只走接口契约
+- [`lumen-ai`](https://github.com/CJX0712/lumen-ai) — 抽象接口编排 Ollama / FAISS / FastAPI / Gradio，每模块带 Mock，后端可插拔
 - [`morningstar-ai`](https://github.com/CJX0712/morningstar-ai) — 晨星 AI · 模块化 RAG + Agent 系统原型
-- [`nebula-ai-core`](https://github.com/CJX0712/nebula-ai-core) — 端到端可运行 AI 引擎
-- [`nebula-ai-stack`](https://github.com/CJX0712/nebula-ai-stack) — 整合 Ollama / bge-m3 / bge-reranker / Qdrant 的开发环境
-- [`nexus-ai-core`](https://github.com/CJX0712/nexus-ai-core) — 模块化 AI 能力中台：模型网关 / 检索 / 智能体 / 工作流 / 记忆
+- [`nebula-ai-core`](https://github.com/CJX0712/nebula-ai-core) — 11 个 AI 功能模块，每块 = Protocol 接口 + 默认实现；默认后端零依赖离线可跑
+- [`nebula-ai-stack`](https://github.com/CJX0712/nebula-ai-stack) — 无 GPU、15GB 内存的 Windows 上跑通「文档 → 检索 → 重排 → 引用生成 → 评测」全链路
+- [`nexus-ai-core`](https://github.com/CJX0712/nexus-ai-core) — 能力中台：模型网关 / 检索 / 智能体 / 工作流 / 记忆；无 Key 无网无 GPU 时离线降级
 - [`nexus-ai-platform`](https://github.com/CJX0712/nexus-ai-platform) — NexusAI 平台：模型网关 / 知识检索 / 智能体
-- [`novaai-stack`](https://github.com/CJX0712/novaai-stack) — 模块化端到端 AI 系统实验（RAG + Agent）
-- [`quasar-ai-runtime`](https://github.com/CJX0712/quasar-ai-runtime) — 模块化端到端可运行的 AI 运行时
-- [`starforge-ai`](https://github.com/CJX0712/starforge-ai) — FastAPI / FAISS / sentence-transformers / Ollama 组装的应用平台
-- [`stellar-ai-core`](https://github.com/CJX0712/stellar-ai-core) — 可编排、接口驱动的端到端 AI 系统
-- [`stellar-ai-stack`](https://github.com/CJX0712/stellar-ai-stack) — 协议化接口 + 混合检索 + 确定性 ReAct agent
-- [`stellar-ai-workbench`](https://github.com/CJX0712/stellar-ai-workbench) — 模块化桌面 AI 工作台，干净环境可复现
+- [`novaai-stack`](https://github.com/CJX0712/novaai-stack) — 零依赖默认的 RAG + ReAct Agent，ingest / embed / vectorstore / rerank / llm 等十个模块
+- [`quasar-ai-runtime`](https://github.com/CJX0712/quasar-ai-runtime) — 混合检索 + 工具调用智能体 + 证据绑定回答；离线档零模型零网络全绿
+- [`starforge-ai`](https://github.com/CJX0712/starforge-ai) — 模块只依赖 ABC 抽象接口，内置确定性 Mock 后端，零网络零密钥即可跑通端到端
+- [`stellar-ai-core`](https://github.com/CJX0712/stellar-ai-core) — 以「单一职责 + 清晰接口 + 能力注册表」组织能力，模块只经抽象契约通信
+- [`stellar-ai-stack`](https://github.com/CJX0712/stellar-ai-stack) — 零依赖离线可跑：mock LLM + BLAKE2b 哈希嵌入 + 内存余弦索引 + IDF 重排
+- [`stellar-ai-workbench`](https://github.com/CJX0712/stellar-ai-workbench) — 桌面 AI 工作台：模型网关（故障转移 + Mock）、可插拔 RAG、智能体编排、记忆
 
 **可自证 · 证据锚定**（4）
 
 - [`aether-research`](https://github.com/CJX0712/aether-research) — 可审计的深度研究 Agent —— 逐字引用校验
-- [`veritas-ai`](https://github.com/CJX0712/veritas-ai) — 不变量优先、可自进化的 Agent 运行时
+- [`veritas-ai`](https://github.com/CJX0712/veritas-ai) — 不变量优先、可自进化的 Agent 运行时 —— 把「正确性」从测试环节提升到架构层
 - [`aletheia-cognition`](https://github.com/CJX0712/aletheia-cognition) — 推理时计算 Scaling 引擎（本地 RAG + inference-time compute）
-- [`stellar-nexus`](https://github.com/CJX0712/stellar-nexus) — 断言级归因校验 + 自适应链路路由 + 评测门禁
+- [`stellar-nexus`](https://github.com/CJX0712/stellar-nexus) — 检索增强 + 自适应链路路由 + 断言级归因校验 + 智能体闭环 + 评测门禁
 
 **Agent 运行时**（1）
 
@@ -160,9 +160,9 @@
 
 **应用平台与服务**（3）
 
-- [`ai-platform-agent-rag`](https://github.com/CJX0712/ai-platform-agent-rag) — Agent 编排 + RAG 知识库 + FastAPI 网关 + 单文件 WebUI
+- [`ai-platform-agent-rag`](https://github.com/CJX0712/ai-platform-agent-rag) — LangGraph 编排 Agent + Chroma 知识库 + FastAPI 网关 + 单文件 WebUI
 - [`ai-rag-platform`](https://github.com/CJX0712/ai-rag-platform) — FastAPI + Qdrant + Ollama + React 的 RAG 问答平台
-- [`ai-llm-api`](https://github.com/CJX0712/ai-llm-api) — 本地 LLM 推理服务：FastAPI + llama.cpp 封装
+- [`ai-llm-api`](https://github.com/CJX0712/ai-llm-api) — FastAPI + llama-cpp-python 本地 LLM 推理服务，镜像自动推 ghcr.io
 
 **工程基建**（1）
 
@@ -180,8 +180,8 @@
 [bitcrc](https://github.com/CJX0712/bitcrc) CRC-32/16 · Adler-32 · FNV-1a，对照公开标准向量 ·
 [bitweave](https://github.com/CJX0712/bitweave) Huffman 最优前缀码 + 无损往返 ·
 [ifs-atlas](https://github.com/CJX0712/ifs-atlas) 迭代函数系统混沌游戏分形浏览器 ·
-[ai-dev-env-report](https://github.com/CJX0712/ai-dev-env-report) AI 开发环境体检报告单页 ·
-[ai-library-dashboard](https://github.com/CJX0712/ai-library-dashboard) AI 资料库仪表盘单页
+[ai-dev-env-report](https://github.com/CJX0712/ai-dev-env-report) Windows 本机 AI 开发环境安装清单，表格化呈现每一步状态 ·
+[ai-library-dashboard](https://github.com/CJX0712/ai-library-dashboard) AI 资料库总览看板，零依赖零构建，双击即用
 
 ## 技术栈
 
