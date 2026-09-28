@@ -8,7 +8,7 @@
 
 `深圳，中国` · `TypeScript` · `React` · `Python 3.13`
 
-`50 个单文件实验室` · `44 个端到端 AI 系统` · `零依赖 · 零构建`
+`53 个单文件实验室` · `34 个可复现 ML 系统` · `52 个端到端 AI 系统` · `零依赖 · 零构建`
 
 </div>
 
@@ -33,10 +33,9 @@
 | 经典算法 | [astar-forge](https://github.com/CJX0712/astar-forge) · [avl-forge](https://github.com/CJX0712/avl-forge) · [rs-forge](https://github.com/CJX0712/rs-forge) · [svm-forge](https://github.com/CJX0712/svm-forge) | 堆序不变量 · KKT 互补松弛 |
 
 <details>
-<summary><b>展开全部 40 个实验室 →</b></summary>
+<summary><b>展开全部 43 个实验室 →</b></summary>
 
-**深度学习与生成**（8）
-
+**深度学习与生成**（9）
 - [`nn-forge`](https://github.com/CJX0712/nn-forge) — MLP 反向传播，实时梯度可视化
 - [`attn-forge`](https://github.com/CJX0712/attn-forge) — 手写缩放点积自注意力 + 因果掩码 + 多头 + 正弦位置编码
 - [`transformer-forge`](https://github.com/CJX0712/transformer-forge) — mini-GPT 实验室，浏览器内训练
@@ -45,6 +44,7 @@
 - [`ddpm-forge`](https://github.com/CJX0712/ddpm-forge) — DDPM v2，31+16 项不变量全绿
 - [`denoise-forge`](https://github.com/CJX0712/denoise-forge) — U-Net + FiLM 时间条件的图像 DDPM
 - [`word2vec-forge`](https://github.com/CJX0712/word2vec-forge) — skip-gram + 负采样，king-man+woman=queen 类比
+- [`bpe-forge`](https://github.com/CJX0712/bpe-forge) — 字符级 BPE 分词器实验室：从零训练 / 可视化 / 数学不变量验证
 
 **强化学习与决策**（4）
 
@@ -63,12 +63,12 @@
 - [`gp-forge`](https://github.com/CJX0712/gp-forge) — 高斯过程回归：Cholesky 推断 + 边际似然解析梯度
 - [`ot-forge`](https://github.com/CJX0712/ot-forge) — 熵正则最优传输 / Sinkhorn
 
-**数值线代与无监督**（4）
-
+**数值线代与无监督**（5）
 - [`pca-forge`](https://github.com/CJX0712/pca-forge) — 雅可比特征分解，幂迭代交叉验证
 - [`nmf-forge`](https://github.com/CJX0712/nmf-forge) — Lee-Seung 乘法更新 + ALS
 - [`ica-forge`](https://github.com/CJX0712/ica-forge) — FastICA：白化 + 定点迭代
 - [`kmeans-forge`](https://github.com/CJX0712/kmeans-forge) — k-means++ / Lloyd，1D 精确 DP 对照
+- [`spectral-forge`](https://github.com/CJX0712/spectral-forge) — 谱聚类 Ng-Jordan-Weiss + Lanczos 三对角化
 
 **经典算法与数据结构**（8）
 
@@ -91,12 +91,73 @@
 - [`life-forge`](https://github.com/CJX0712/life-forge) — 康威生命游戏 B3/S23
 - [`synth-forge`](https://github.com/CJX0712/synth-forge) — WebAudio 合成器，采样数学自检
 
-**机器学习基础**（2）
-
+**机器学习基础**（3）
 - [`svm-forge`](https://github.com/CJX0712/svm-forge) — SMO / KKT / 核技巧，2D 硬间隔最优性证书
 - [`tinyml-lab`](https://github.com/CJX0712/tinyml-lab) — 带动量的 MLP，决策边界实时可视化
+- [`forest-forge-v2`](https://github.com/CJX0712/forest-forge-v2) — Random Forest 集成树：CART + Bagging + OOB + 特征重要性
 
 </details>
+
+## Forge 系统 — 可复现的机器学习系统
+
+**34 个模块化 ML 系统**（Python），复用顶级开源（scikit-learn / PyTorch Geometric / LightGBM / Optuna / FAISS……），每套都带纯 numpy 离线兜底与基线对照，CPU 可跑、可复现。
+
+**表格 · 监督学习**（4）
+
+- [`tabulaforge`](https://github.com/CJX0712/tabulaforge) — 自动化表格机器学习：XGBoost + LightGBM + Optuna，sklearn 兜底
+- [`rankforge`](https://github.com/CJX0712/rankforge) — Learning to Rank：LightGBM lambdamart + XGBoost rank:ndcg + 纯 numpy RankNet
+- [`cvforge`](https://github.com/CJX0712/cvforge) — 基于特征的图像分类：scikit-image / OpenCV 特征 + macro-F1 / NMI / ARI
+- [`intentforge`](https://github.com/CJX0712/intentforge) — 置信校准级联路由（C3R）文本分类，CPU-only
+
+**图与表征学习**（5）
+
+- [`graphforge`](https://github.com/CJX0712/graphforge) — GNN 节点分类：PyTorch Geometric（GCN/GAT）+ 纯 numpy 离线兜底
+- [`nodeforge`](https://github.com/CJX0712/nodeforge) — 可复现 GNN 节点分类基准：验证集调优的多通道架构
+- [`graphforge-linkpred`](https://github.com/CJX0712/graphforge-linkpred) — faithful node2vec 链接预测，纯 numpy 实现
+- [`graphrepforge`](https://github.com/CJX0712/graphrepforge) — 图表征学习基准：节点分类 / 链接预测
+- [`heteroforge`](https://github.com/CJX0712/heteroforge) — 同质感知自适应路由（HAAR）图表征学习
+
+**因果 · 概率 · 不确定性**（5）
+
+- [`causalforge`](https://github.com/CJX0712/causalforge) — 因果推断：交叉拟合 DML（LightGBM/XGBoost）估计 ATE，含 OLS/PSM 基线
+- [`dagforge`](https://github.com/CJX0712/dagforge) — 确定性因果发现：NOTEARS 旗舰 + PC + 离线兜底
+- [`gaussforge`](https://github.com/CJX0712/gaussforge) — 高斯过程 + AutoKernel 核结构搜索（Optuna）
+- [`oodforge`](https://github.com/CJX0712/oodforge) — 分布外检测与置信度校准：CGOR 门控路由 + 选择性预测弃权带
+- [`survforge`](https://github.com/CJX0712/survforge) — 生存分析：Cox / spline-Cox / XGBoost AFT，C-index 加权评测
+
+**时序 · 推荐 · 检索**（7）
+
+- [`chrono-forge`](https://github.com/CJX0712/chrono-forge) — 时间序列预测：statsmodels/pmdarima + 残差堆叠集成
+- [`tsforge`](https://github.com/CJX0712/tsforge) — 时间序列预测：M4 指标 + 滚动原点基准，零下载可跑 demo
+- [`recforge`](https://github.com/CJX0712/recforge) — 隐式反馈推荐基准框架
+- [`recoforge`](https://github.com/CJX0712/recoforge) — 混合协同过滤：手写 WRMF-ALS + implicit SOTA 后端
+- [`vecforge`](https://github.com/CJX0712/vecforge) — 文档向量检索与聚类：FAISS + scikit-learn 兜底
+- [`visionforge`](https://github.com/CJX0712/visionforge) — CPU-only 以图搜图（CBIR）：AMDF 自适应多描述子
+- [`voiceforge`](https://github.com/CJX0712/voiceforge) — 语音/音频 ML：librosa / whisper / speechbrain，纯 numpy 兜底，21 单测全绿
+
+**决策 · 优化 · 进阶范式**（7）
+
+- [`activeforge`](https://github.com/CJX0712/activeforge) — 主动学习：5 查询策略（不确定性/QBC-BALD/核心集等）× 5 数据集
+- [`banditforge`](https://github.com/CJX0712/banditforge) — 上下文老虎机 + 离线策略评估 OPE：LinUCB / LinTS
+- [`fedforge`](https://github.com/CJX0712/fedforge) — 联邦学习：FedAvg / FedMedian / FedTrimmedMean，Dirichlet 非独立同分布
+- [`neuroforge`](https://github.com/CJX0712/neuroforge) — 深度强化学习训练：Gymnasium + SB3 + Optuna，纯 numpy DQN 兜底
+- [`optiforge`](https://github.com/CJX0712/optiforge) — 组合优化套件：TSP / 背包 / 指派，OR-Tools + 自研基线
+- [`onlineforge`](https://github.com/CJX0712/onlineforge) — 流式/增量学习：river + scikit-learn + 纯 numpy 离线兜底
+- [`synthmind-forge`](https://github.com/CJX0712/synthmind-forge) — RCG-NAS：递归批判引导的神经网络架构搜索
+
+**可解释 · 迁移 · 半监督**（5）
+
+- [`explainforge`](https://github.com/CJX0712/explainforge) — 模型无关特征归因（XAI）：纯 numpy KernelSHAP / LIME
+- [`domainforge`](https://github.com/CJX0712/domainforge) — 域适应：CORAL / TCA / JDA / KLIEP 纯 numpy + SAFuse 融合
+- [`gacsforge`](https://github.com/CJX0712/gacsforge) — 半监督 GACS：图-树混合类平衡自训练，macro-F1 超最强基线 +0.0536（3 seeds）
+- [`semiforge`](https://github.com/CJX0712/semiforge) — 半监督学习系统：GACS 旗舰管线 + 多基线对照
+- [`anomalyforge`](https://github.com/CJX0712/anomalyforge) — 模块化异常检测：PyOD + scikit-learn + numpy 兜底
+
+**全家桶**（1）
+
+- [`forgestack`](https://github.com/CJX0712/forgestack) — 本地可运行 AI 系统：复用 forest / spectral / bpe 三引擎 + 向量检索，41 单测
+
+---
 
 ## 端到端 AI 系统
 
@@ -113,7 +174,7 @@
 | [morningstar-ai-collab](https://github.com/CJX0712/morningstar-ai-collab) | 可自托管的 AI 原生团队协作平台，全栈 TypeScript |
 
 <details>
-<summary><b>展开其余 35 个端到端系统 →</b></summary>
+<summary><b>展开其余 43 个端到端系统 →</b></summary>
 
 **本地优先 RAG 系统**（9）
 
@@ -168,6 +229,17 @@
 
 - [`0.0`](https://github.com/CJX0712/0.0) — 最小仓库卫生门禁 · CI 冒烟验证模板
 
+
+**新锐 RAG 与智能体系统**（8）
+
+- [`zhishu`](https://github.com/CJX0712/zhishu) — 智枢：本地优先、混合推理的企业级 AI 知识中枢与智能体平台，Web/API/CLI 三形态
+- [`phosphor-ai-stack`](https://github.com/CJX0712/phosphor-ai-stack) — 端到端检索增强智能体平台：摄入 → 分块 → 向量化 → 混合检索 → 重排 → 多智能体
+- [`ragnext`](https://github.com/CJX0712/ragnext) — 模块化 RAG：FAISS / sentence-transformers / ragas 评测，CPU 可跑、一键复现
+- [`zhi-rag`](https://github.com/CJX0712/zhi-rag) — ZhiDa 多模态 RAG 引擎：BM25 + dense + RRF 混合检索，LLM 可插拔
+- [`cxrag`](https://github.com/CJX0712/cxrag) — CxRAG 混合检索增强问答引擎：离线 / CPU / 模块化 / 一键复现
+- [`aurora-rag`](https://github.com/CJX0712/aurora-rag) — 模块化、可插拔、CPU/离线可运行的 RAG 系统
+- [`helios-ai-stack`](https://github.com/CJX0712/helios-ai-stack) — 分层架构 RAG：Protocol 可注入、三档 profile、可量化评测基线
+- [`astraea-ai-system-qhui1`](https://github.com/CJX0712/astraea-ai-system-qhui1) — Astraea：自演化多智能体 AI 系统内核
 </details>
 
 ## 单文件工具
