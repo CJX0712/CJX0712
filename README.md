@@ -255,6 +255,10 @@
 [ai-dev-env-report](https://github.com/CJX0712/ai-dev-env-report) Windows 本机 AI 开发环境安装清单，表格化呈现每一步状态 ·
 [ai-library-dashboard](https://github.com/CJX0712/ai-library-dashboard) AI 资料库总览看板，零依赖零构建，双击即用
 
+
+[sudoku-lab](https://github.com/CJX0712/sudoku-lab) 唯一解保证的数独生成 / 求解器 · 50 题无头自检全绿
+[starforge](https://github.com/CJX0712/starforge) GitHub 高星仓库榜单浏览器 · 247 真实仓库 / 12.25M 星 · 10 赛道筛选 · 收藏导出
+
 ## 技术栈
 
 | | |
