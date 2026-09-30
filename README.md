@@ -8,7 +8,7 @@
 
 `深圳，中国` · `TypeScript` · `React` · `Python 3.13`
 
-`48 个单文件实验室` · `40 个可复现 ML 系统` · `52 个端到端 AI 系统` · `12 个单文件工具` · `零依赖 · 零构建`
+`48 个单文件实验室` · `43 个可复现 ML 系统` · `52 个端到端 AI 系统` · `12 个单文件工具` · `零依赖 · 零构建`
 
 </div>
 
@@ -105,7 +105,7 @@
 
 ## Forge 系统 — 可复现的机器学习系统
 
-**40 个模块化 ML 系统**（Python），复用顶级开源（scikit-learn / PyTorch Geometric / LightGBM / Optuna / FAISS……），每套都带纯 numpy 离线兜底与基线对照，CPU 可跑、可复现。
+**43 个模块化 ML 系统**（Python），复用顶级开源（scikit-learn / PyTorch Geometric / LightGBM / Optuna / FAISS……），每套都带纯 numpy 离线兜底与基线对照，CPU 可跑、可复现。
 
 **表格 · 监督学习**（6）
 
@@ -123,15 +123,16 @@
 - [`graphforge-linkpred`](https://github.com/CJX0712/graphforge-linkpred) — faithful node2vec 链接预测，纯 numpy 实现
 - [`graphrepforge`](https://github.com/CJX0712/graphrepforge) — 图表征学习基准：节点分类 / 链接预测
 - [`heteroforge`](https://github.com/CJX0712/heteroforge) — 同质感知自适应路由（HAAR）图表征学习
-- [`clusterforge`](https://github.com/CJX0712/clusterforge) — 聚类系统：共识集成 EAC 旗舰，纯 numpy 离线兜底，确定性可复现
+- [`clustforge`](https://github.com/CJX0712/clustforge) — 聚类系统：共识集成 EAC 旗舰，纯 numpy 离线兜底，确定性可复现
 
-**因果 · 概率 · 不确定性**（5）
+**因果 · 概率 · 不确定性**（6）
 
 - [`causalforge`](https://github.com/CJX0712/causalforge) — 因果推断：交叉拟合 DML（LightGBM/XGBoost）估计 ATE，含 OLS/PSM 基线
 - [`dagforge`](https://github.com/CJX0712/dagforge) — 确定性因果发现：NOTEARS 旗舰 + PC + 离线兜底
 - [`gaussforge`](https://github.com/CJX0712/gaussforge) — 高斯过程 + AutoKernel 核结构搜索（Optuna）
 - [`oodforge`](https://github.com/CJX0712/oodforge) — 分布外检测与置信度校准：CGOR 门控路由 + 选择性预测弃权带
 - [`survforge`](https://github.com/CJX0712/survforge) — 生存分析：Cox / spline-Cox / XGBoost AFT，C-index 加权评测
+- [`chainforge`](https://github.com/CJX0712/chainforge) — 贝叶斯后验推断工具箱：NUTS / ADVI / Laplace + 旗舰 VarioNUTS（变分预条件 + 诊断门控 + 诚实回退）
 
 **时序 · 推荐 · 检索**（9）
 
@@ -145,7 +146,7 @@
 - [`voiceforge`](https://github.com/CJX0712/voiceforge) — 语音/音频 ML：librosa / whisper / speechbrain，纯 numpy 兜底，21 单测全绿
 - [`riverforge`](https://github.com/CJX0712/riverforge) — 在线学习/概念漂移：旗舰 DriftForge 漂移感知集成，scikit-learn/river 复用
 
-**决策 · 优化 · 进阶范式**（9）
+**决策 · 优化 · 进阶范式**（10）
 
 - [`activeforge`](https://github.com/CJX0712/activeforge) — 主动学习：5 查询策略（不确定性/QBC-BALD/核心集等）× 5 数据集
 - [`banditforge`](https://github.com/CJX0712/banditforge) — 上下文老虎机 + 离线策略评估 OPE：LinUCB / LinTS
@@ -156,13 +157,15 @@
 - [`optiforge`](https://github.com/CJX0712/optiforge) — 组合优化套件：TSP / 背包 / 指派，OR-Tools + 自研基线
 - [`onlineforge`](https://github.com/CJX0712/onlineforge) — 流式/增量学习：river + scikit-learn + 纯 numpy 离线兜底
 - [`synthmind-forge`](https://github.com/CJX0712/synthmind-forge) — RCG-NAS：递归批判引导的神经网络架构搜索
+- [`mooforge`](https://github.com/CJX0712/mooforge) — 多目标 EMO 工具箱：旗舰 AHVA-MOEA 自适应进化多目标优化
 
-**可解释 · 迁移 · 半监督**（4）
+**可解释 · 迁移 · 半监督**（5）
 
 - [`explainforge`](https://github.com/CJX0712/explainforge) — 模型无关特征归因（XAI）：纯 numpy KernelSHAP / LIME
 - [`domainforge`](https://github.com/CJX0712/domainforge) — 域适应：CORAL / TCA / JDA / KLIEP 纯 numpy + SAFuse 融合
 - [`gacsforge`](https://github.com/CJX0712/gacsforge) — 半监督 GACS：图-树混合类平衡自训练，macro-F1 超最强基线 +0.0536（3 seeds）
 - [`anomalyforge`](https://github.com/CJX0712/anomalyforge) — 模块化异常检测：PyOD + scikit-learn + numpy 兜底
+- [`conformforge`](https://github.com/CJX0712/conformforge) — 全栈共形预测基准：11 方法 × 10 数据集 × 双后端(numpy/MAPIE)，CAFuse 旗舰，覆盖率硬保证
 
 **全家桶**（1）
 
