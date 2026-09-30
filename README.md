@@ -123,7 +123,7 @@
 - [`graphforge-linkpred`](https://github.com/CJX0712/graphforge-linkpred) — faithful node2vec 链接预测，纯 numpy 实现
 - [`graphrepforge`](https://github.com/CJX0712/graphrepforge) — 图表征学习基准：节点分类 / 链接预测
 - [`heteroforge`](https://github.com/CJX0712/heteroforge) — 同质感知自适应路由（HAAR）图表征学习
-- [`clustforge`](https://github.com/CJX0712/clusterforge) — 聚类系统：共识集成 EAC 旗舰，纯 numpy 离线兜底，确定性可复现
+- [`clusterforge`](https://github.com/CJX0712/clusterforge) — 聚类系统：共识集成 EAC 旗舰，纯 numpy 离线兜底，确定性可复现
 
 **因果 · 概率 · 不确定性**（6）
 
