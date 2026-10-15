@@ -78,10 +78,9 @@ def main() -> int:
         langs[lang] = langs.get(lang, 0) + 1
     top_langs = sorted(langs.items(), key=lambda kv: -kv[1])
 
-    with_ci = sum(1 for r in repos if r.get("has_issues") is not None)
-    # CI presence needs a second call per repo; approximate via workflow files
+    # CI presence needs one extra call per repo; counted over every active repo
     ci_count = 0
-    for r in active[:200]:
+    for r in active:
         try:
             wf = api(f"/repos/{USER}/{r['name']}/contents/.github/workflows")
             if isinstance(wf, list) and wf:
@@ -105,7 +104,7 @@ def main() -> int:
         f"| Stars / Followers | **{stars}** / **{user.get('followers', 0)}** |",
         f"| 代码体量 | ≈ {human_size(size_kb)}（GitHub 计 {sum(r.get('size', 0) for r in repos):,} KB） |",
         f"| 语言分布 | {lang_str} |",
-        f"| 活跃仓库 CI 覆盖 | **{ci_count}/{len(active[:200])}**（抽样前 200） |",
+        f"| 活跃仓库 CI 覆盖 | **{ci_count}/{len(active)}**（{ci_count * 100 // max(len(active), 1)}%） |",
         f"| Fork | {len(forks)} |",
         "",
         "**最近推送**",
