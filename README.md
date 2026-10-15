@@ -43,25 +43,25 @@
 ## 📊 数据看板
 
 <!-- STATS:START -->
-> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-15 17:01 UTC · 数字由 API 实拉，不靠手改
+> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-15 21:32 UTC · 数字由 API 实拉，不靠手改
 
 | 指标 | 数值 |
 | --- | --- |
-| 公开仓库 | **285**（活跃 237 · 归档 48） |
+| 公开仓库 | **287**（活跃 239 · 归档 48） |
 | Stars / Followers | **0** / **1** |
-| 代码体量 | ≈ 20.8 MB（GitHub 计 21,270 KB） |
-| 语言分布 | Python 183 · HTML 69 · JavaScript 26 · TypeScript 5 · 其他 2 |
-| 活跃仓库 CI 覆盖 | **220/237**（92%） |
+| 代码体量 | ≈ 21.9 MB（GitHub 计 22,415 KB） |
+| 语言分布 | Python 185 · HTML 69 · JavaScript 26 · TypeScript 5 · 其他 2 |
+| 活跃仓库 CI 覆盖 | **222/239**（92%） |
 | Fork | 0 |
 
 **最近推送**
 
+- [innovation-flagship-ai](https://github.com/CJX0712/innovation-flagship-ai) — 创新旗舰 AI · Innovation Flagship AI — 十层架构、零重写集大成、CPU 可运行可复现可… （今天）
+- [phosphorus](https://github.com/CJX0712/phosphorus) — Phosphorus (晨星) - Ternary-native 1.58-bit LLM training & s… （今天）
 - [aurora-worldclass-ai](https://github.com/CJX0712/aurora-worldclass-ai) — Aurora —— 晨星锻造的世界顶级 AI 系统：MLA+GDN+SWA 混合注意力 / DeepSeekMoE … （今天）
 - [chenxing](https://github.com/CJX0712/chenxing) — 晨星 Chenxing · LLM 推理与智能体栈：RadixAttention / PagedAttention … （今天）
 - [apex-forge](https://github.com/CJX0712/apex-forge) — ApexForge · 零依赖 AI/ML 基础库，每个算法带可验证硬不变量（25/25 无头自检全绿）。作者：晨星 （今天）
 - [helix-ai-engine](https://github.com/CJX0712/helix-ai-engine) — Provider-agnostic AI orchestration engine: RAG + tool-usin… （今天）
-- [zhishu](https://github.com/CJX0712/zhishu) — 智枢 ZhiShu：本地优先、混合推理的企业级 AI 知识中枢与智能体平台（RAG + Agent，Web/API/… （今天）
-- [tianji-ai](https://github.com/CJX0712/tianji-ai) — 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × MoE × Mu… （今天）
 <!-- STATS:END -->
 
 ---
