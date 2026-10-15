@@ -89,7 +89,9 @@ def main() -> int:
         except Exception:
             pass
 
-    recent = sorted(repos, key=lambda r: r.get("pushed_at", ""), reverse=True)[:6]
+    # the profile repo itself is just bookkeeping, not a deliverable
+    recent = [r for r in repos if r["name"].lower() != USER.lower()]
+    recent = sorted(recent, key=lambda r: r.get("pushed_at", ""), reverse=True)[:6]
 
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lang_str = " · ".join(f"{k} {v}" for k, v in top_langs[:5])
