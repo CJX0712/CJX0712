@@ -12,6 +12,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-26-F7DF1E?logo=javascript)](https://github.com/CJX0712?tab=repositories&language=javascript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://github.com/CJX0712?tab=repositories&language=typescript)
 [![Location](https://img.shields.io/badge/Shenzhen-China-red)](https://github.com/CJX0712)
+[![Stars](https://img.shields.io/github/stars/CJX0712?label=Stars)](https://github.com/CJX0712?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/CJX0712?label=Followers)](https://github.com/CJX0712)
+[![Stats](https://img.shields.io/badge/stats-auto--refreshed-blueviolet)](https://github.com/CJX0712/CJX0712/actions/workflows/profile-stats.yml)
 
 *天黑前把活干完，天亮时把结果交出去。*
 
@@ -34,6 +37,13 @@
 | **闭环交付** | 可运行、可复现、可验证；失败如实报失败 | 门禁失败不允许放宽阈值凑绿 |
 
 > **失败也公开**：[densforge](https://github.com/CJX0712/densforge) 是一份公开的失败记录 —— 密度估计中位 −1.05% FAIL、流形 5/5 FAIL vs Isomap。它没通过，我把它挂在 README 上而不是藏起来。
+
+---
+
+## 📊 数据看板
+
+<!-- STATS:START -->
+<!-- STATS:END -->
 
 ---
 
