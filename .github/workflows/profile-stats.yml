@@ -1,0 +1,41 @@
+name: profile-stats
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_stats.py
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    name: Refresh profile dashboard from live API
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Refresh stats block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "晨星"
+          git config user.email "CJX0712@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "no change, skipping commit"
+          else
+            git add README.md
+            git commit -m "chore(stats): auto-refresh profile dashboard"
+            git push
+          fi
