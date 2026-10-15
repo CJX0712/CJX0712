@@ -48,12 +48,16 @@
 | [jsforge](https://github.com/CJX0712/jsforge) | 纯 JS 单文件 ML/数值库，无头 Node 8/8 | 全绿 |
 | [ai-microforge](https://github.com/CJX0712/ai-microforge) / [forge-1024](https://github.com/CJX0712/forge-1024) | 第十层微指令基石：1024 条可验证微指令 | 零构建可复现 |
 | [morningstar-ai-forge](https://github.com/CJX0712/morningstar-ai-forge) | 十层架构 + 跨库交叉验证（forge 纯实现 vs numpy/scipy/sklearn/torch 黄金参照） | 参照对拍 |
+| [axiom-ai](https://github.com/CJX0712/axiom-ai) | 自验证 AI 微指令操作系统：十层架构 × 1024 微指令，单文件双端同源 | 64 项数学不变量 |
 
 ---
 
 ## forge —— 从零手写的算法实验室
 
 **48 个算法实验室**，**零依赖 · 零构建 · 单文件 HTML**。浏览器打开即运行，Node 无头自检全绿。
+
+> ▶ **70 个项目已上线在线演示**（GitHub Pages，无需克隆）：`https://cjx0712.github.io/<仓库名>/`
+> 例如 [nn-forge](https://cjx0712.github.io/nn-forge/) · [transformer-forge-v2](https://cjx0712.github.io/transformer-forge-v2/) · [az-forge](https://cjx0712.github.io/az-forge/) · [microforge](https://cjx0712.github.io/microforge/) · [wave-loom](https://cjx0712.github.io/wave-loom/) · [StellarAI](https://cjx0712.github.io/StellarAI/)
 
 不是调库 Demo。每个 forge 都留了一条能被交叉验证的硬标准：解析解对数值解、暴力枚举对贪心、KKT 互补松弛、Bellman 残差收敛……
 
