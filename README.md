@@ -4,10 +4,10 @@
 
 **AI 系统构建者 · 验证优先 · 零重写集大成**
 
-[![Repos](https://img.shields.io/badge/Repos-285-blue)](https://github.com/CJX0712?tab=repositories)
+[![Repos](https://img.shields.io/badge/Repos-287-blue)](https://github.com/CJX0712?tab=repositories)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/CJX0712/tianji-ai/blob/main/LICENSE)
 [![Verification](https://img.shields.io/badge/Verification-invariants--first-brightgreen)](https://github.com/CJX0712/tianji-ai)
-[![Python](https://img.shields.io/badge/Python-183-3776AB?logo=python)](https://github.com/CJX0712?tab=repositories&language=python)
+[![Python](https://img.shields.io/badge/Python-185-3776AB?logo=python)](https://github.com/CJX0712?tab=repositories&language=python)
 [![HTML](https://img.shields.io/badge/HTML-69-E34F26?logo=html5)](https://github.com/CJX0712?tab=repositories&language=html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-26-F7DF1E?logo=javascript)](https://github.com/CJX0712?tab=repositories&language=javascript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://github.com/CJX0712?tab=repositories&language=typescript)
@@ -200,7 +200,7 @@ make verify-all      # = make test + make gates + make quickstart
 
 ---
 
-## 📇 全部 285 个仓库
+## 📇 全部 287 个仓库
 
 按语言分组的完整清单见 **[REPOSITORY_INDEX.md](./REPOSITORY_INDEX.md)**（零遗漏；归档项目保留但不推荐 —— 它们是历史迭代的诚实痕迹）。
 
