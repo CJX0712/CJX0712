@@ -37,5 +37,6 @@ jobs:
           else
             git add README.md REPOSITORY_INDEX.md
             git commit -m "chore(stats): auto-refresh profile dashboard"
+            git pull --rebase
             git push
           fi
