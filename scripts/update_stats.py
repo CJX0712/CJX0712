@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Refresh the STATS block in the profile README from live GitHub data.
+"""Refresh the profile README + REPOSITORY_INDEX.md from live GitHub data.
 
 Zero third-party dependencies (stdlib only). Runs in GitHub Actions on a
 schedule; the README never carries a number a human had to remember to update.
+
+Refreshes three things:
+1. the STATS block (markers <!-- STATS:START/END -->)
+2. badge counts in the README header (Repos / per-language)
+3. REPOSITORY_INDEX.md — the full per-language repo listing
 """
 from __future__ import annotations
 
@@ -15,8 +20,25 @@ from datetime import datetime, timezone
 
 USER = "CJX0712"
 README = "README.md"
+INDEX = "REPOSITORY_INDEX.md"
 START = "<!-- STATS:START -->"
 END = "<!-- STATS:END -->"
+
+# badge slug -> shield color/logo fragment, matched against live language counts
+LANG_BADGES = {
+    "Python": "3776AB?logo=python",
+    "HTML": "E34F26?logo=html5",
+    "JavaScript": "F7DF1E?logo=javascript",
+    "TypeScript": "3178C6?logo=typescript",
+}
+
+SECTION_TITLES = {
+    "Python": "Python · 算法系统与基准",
+    "HTML": "HTML · 单文件零依赖实验室（浏览器可跑）",
+    "JavaScript": "JavaScript · 零依赖内核与工具",
+    "TypeScript": "TypeScript · 平台与全栈",
+}
+SECTION_ORDER = ["Python", "HTML", "JavaScript", "TypeScript"]
 
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
 HEADERS = {
@@ -126,12 +148,87 @@ def main() -> int:
         print(f"ERROR: markers {START} / {END} not found in {README}", file=sys.stderr)
         return 1
     new = pattern.sub(lambda _: block, src)
-    if new == src:
+
+    # keep header badges and the index heading in sync with live counts
+    new = re.sub(r"Repos-\d+-blue", f"Repos-{len(repos)}-blue", new)
+    for lang, frag in LANG_BADGES.items():
+        if lang in langs:
+            new = re.sub(
+                rf"{lang}-\d+-{re.escape(frag)}",
+                f"{lang}-{langs[lang]}-{frag}",
+                new,
+            )
+    new = re.sub(r"全部 \d+ 个仓库", f"全部 {len(repos)} 个仓库", new)
+
+    changed = []
+    if new != src:
+        open(README, "w", encoding="utf-8").write(new)
+        changed.append(README)
+
+    index_text = render_index(repos)
+    old_index = ""
+    if os.path.exists(INDEX):
+        old_index = open(INDEX, encoding="utf-8").read()
+    if index_text != old_index:
+        open(INDEX, "w", encoding="utf-8").write(index_text)
+        changed.append(INDEX)
+
+    if changed:
+        print(f"updated {changed}: {len(repos)} repos, {stars} stars, {ci_count} with CI")
+    else:
         print("no change")
-        return 0
-    open(README, "w", encoding="utf-8").write(new)
-    print(f"updated: {len(repos)} repos, {stars} stars, {ci_count} with CI")
     return 0
+
+
+def truncate(text: str, limit: int = 50) -> str:
+    text = (text or "").replace("|", "\\|").replace("\n", " ").strip()
+    return text[:limit] + ("…" if len(text) > limit else "")
+
+
+def render_index(repos: list) -> str:
+    """Full repo listing grouped by language, alphabetically, global numbering."""
+    repos = sorted(repos, key=lambda r: r["name"].lower())
+    number = {r["name"]: i + 1 for i, r in enumerate(repos)}
+
+    groups: dict[str, list] = {}
+    for r in repos:
+        groups.setdefault(r.get("language") or "其他", []).append(r)
+
+    total = len(repos)
+    out = [
+        "# 📇 全量仓库索引 · Repository Index",
+        "",
+        f"> 本文件由主页 README 拆分而来，包含 **{total} 个公开仓库**的完整清单。",
+        "> 主页只放精选；这里是全部。按语言分组，表格内为「仓库 / 一句话 / 状态」。",
+        "",
+        "## 全量仓库索引",
+        "",
+        f"**{total} 个仓库，零遗漏。** 按形态分组，字母序。归档项目保留但不推荐 —— 它们是历史迭代的诚实痕迹。",
+        "",
+    ]
+    ordered = [k for k in SECTION_ORDER if k in groups]
+    ordered += [k for k in groups if k not in SECTION_ORDER]
+    for lang in ordered:
+        items = groups[lang]
+        active_n = sum(1 for r in items if not r.get("archived"))
+        title = SECTION_TITLES.get(lang, f"{lang} · 其他")
+        out.append(f"### {title} · {len(items)}（活跃 {active_n}）")
+        out.append("")
+        out.append("<details>")
+        out.append(f"<summary>展开 {len(items)} 个仓库</summary>")
+        out.append("")
+        out.append("| # | 仓库 | 一句话 | 状态 |")
+        out.append("| ---: | --- | --- | --- |")
+        for r in items:
+            status = "归档" if r.get("archived") else "活跃"
+            out.append(
+                f"| {number[r['name']]} | [{r['name']}](https://github.com/{USER}/{r['name']}) "
+                f"| {truncate(r.get('description'))} | {status} |"
+            )
+        out.append("")
+        out.append("</details>")
+        out.append("")
+    return "\n".join(out)
 
 
 if __name__ == "__main__":
