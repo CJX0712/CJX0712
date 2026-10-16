@@ -32,10 +32,10 @@ jobs:
         run: |
           git config user.name "晨星"
           git config user.email "CJX0712@users.noreply.github.com"
-          if git diff --quiet README.md; then
+          if git diff --quiet README.md REPOSITORY_INDEX.md; then
             echo "no change, skipping commit"
           else
-            git add README.md
+            git add README.md REPOSITORY_INDEX.md
             git commit -m "chore(stats): auto-refresh profile dashboard"
             git push
           fi
