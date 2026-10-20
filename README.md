@@ -4,12 +4,12 @@
 
 **AI 系统构建者 · 验证优先 · 零重写集大成**
 
-[![Repos](https://img.shields.io/badge/Repos-289-blue)](https://github.com/CJX0712?tab=repositories)
+[![Repos](https://img.shields.io/badge/Repos-291-blue)](https://github.com/CJX0712?tab=repositories)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/CJX0712/tianji-ai/blob/main/LICENSE)
 [![Verification](https://img.shields.io/badge/Verification-invariants--first-brightgreen)](https://github.com/CJX0712/tianji-ai)
 [![Python](https://img.shields.io/badge/Python-185-3776AB?logo=python)](https://github.com/CJX0712?tab=repositories&language=python)
 [![HTML](https://img.shields.io/badge/HTML-70-E34F26?logo=html5)](https://github.com/CJX0712?tab=repositories&language=html)
-[![JavaScript](https://img.shields.io/badge/JavaScript-27-F7DF1E?logo=javascript)](https://github.com/CJX0712?tab=repositories&language=javascript)
+[![JavaScript](https://img.shields.io/badge/JavaScript-29-F7DF1E?logo=javascript)](https://github.com/CJX0712?tab=repositories&language=javascript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://github.com/CJX0712?tab=repositories&language=typescript)
 [![Location](https://img.shields.io/badge/Shenzhen-China-red)](https://github.com/CJX0712)
 [![Stars](https://img.shields.io/github/stars/CJX0712?label=Stars)](https://github.com/CJX0712?tab=repositories)
@@ -43,25 +43,25 @@
 ## 📊 数据看板
 
 <!-- STATS:START -->
-> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-20 17:20 UTC · 数字由 API 实拉，不靠手改
+> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-20 21:44 UTC · 数字由 API 实拉，不靠手改
 
 | 指标 | 数值 |
 | --- | --- |
-| 公开仓库 | **289**（活跃 241 · 归档 48） |
+| 公开仓库 | **291**（活跃 243 · 归档 48） |
 | Stars / Followers | **1** / **1** |
-| 代码体量 | ≈ 25.2 MB（GitHub 计 25,798 KB） |
-| 语言分布 | Python 185 · HTML 70 · JavaScript 27 · TypeScript 5 · 其他 2 |
-| 活跃仓库 CI 覆盖 | **241/241**（100%） |
+| 代码体量 | ≈ 26.2 MB（GitHub 计 26,878 KB） |
+| 语言分布 | Python 185 · HTML 70 · JavaScript 29 · TypeScript 5 · 其他 2 |
+| 活跃仓库 CI 覆盖 | **241/243**（99%） |
 | Fork | 0 |
 
 **最近推送**
 
-- [flagship-ai](https://github.com/CJX0712/flagship-ai) — 零依赖纯 JavaScript 手写 GPT 引擎：字符级分词 + Transformer + 手写反向传播 + A… （今天）
-- [tianji-ai](https://github.com/CJX0712/tianji-ai) — 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × MoE × Mu… （今天）
-- [axiom-ai](https://github.com/CJX0712/axiom-ai) — AXIOM · 自验证 AI 微指令操作系统 —— 十层架构 × 1024 微指令 × 64 项数学不变量，零依赖单… （今天）
 - [flagship-ai-engine](https://github.com/CJX0712/flagship-ai-engine) — 旗舰AI引擎：零依赖、可验证、世界顶级 AI 算法集大成引擎（浏览器 + Node 双跑）。作者：晨星 （今天）
-- [phosphorus](https://github.com/CJX0712/phosphorus) — Phosphorus (晨星) - Ternary-native 1.58-bit LLM training & s… （2 天前）
-- [innovation-flagship-ai](https://github.com/CJX0712/innovation-flagship-ai) — 创新旗舰 AI · Innovation Flagship AI — 十层架构、零重写集大成、CPU 可运行可复现可… （2 天前）
+- [flagship-ai](https://github.com/CJX0712/flagship-ai) — 零依赖纯 JavaScript 手写 GPT 引擎：字符级分词 + Transformer + 手写反向传播 + A… （今天）
+- [axiom-ai](https://github.com/CJX0712/axiom-ai) — AXIOM · 自验证 AI 微指令操作系统 —— 十层架构 × 1024 微指令 × 64 项数学不变量，零依赖单… （今天）
+- [flagship-transformer](https://github.com/CJX0712/flagship-transformer) — 旗舰Transformer参考实现+基准 · 零依赖 · 反向自动微分 · 归纳任务上注意力碾压无注意力基线（8/8… （今天）
+- [flagship-algo-forge](https://github.com/CJX0712/flagship-algo-forge) — 旗舰算法工具库 · 零依赖零构建 · 集大成/零重写 · 站在世界顶级成果之上的 AI 基础算法集（8/8 自检全绿… （今天）
+- [tianji-ai](https://github.com/CJX0712/tianji-ai) — 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × MoE × Mu… （今天）
 <!-- STATS:END -->
 
 ---
@@ -200,7 +200,7 @@ make verify-all      # = make test + make gates + make quickstart
 
 ---
 
-## 📇 全部 289 个仓库
+## 📇 全部 291 个仓库
 
 按语言分组的完整清单见 **[REPOSITORY_INDEX.md](./REPOSITORY_INDEX.md)**（零遗漏；归档项目保留但不推荐 —— 它们是历史迭代的诚实痕迹）。
 
