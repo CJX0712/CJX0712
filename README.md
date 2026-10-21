@@ -43,13 +43,13 @@
 ## 📊 数据看板
 
 <!-- STATS:START -->
-> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-20 21:44 UTC · 数字由 API 实拉，不靠手改
+> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-21 05:00 UTC · 数字由 API 实拉，不靠手改
 
 | 指标 | 数值 |
 | --- | --- |
 | 公开仓库 | **291**（活跃 243 · 归档 48） |
 | Stars / Followers | **1** / **1** |
-| 代码体量 | ≈ 26.2 MB（GitHub 计 26,878 KB） |
+| 代码体量 | ≈ 26.3 MB（GitHub 计 26,882 KB） |
 | 语言分布 | Python 185 · HTML 70 · JavaScript 29 · TypeScript 5 · 其他 2 |
 | 活跃仓库 CI 覆盖 | **241/243**（99%） |
 | Fork | 0 |
