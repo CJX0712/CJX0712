@@ -18,6 +18,9 @@
 
 *天黑前把活干完，天亮时把结果交出去。*
 
+[![▶ 现场跑尺子](https://img.shields.io/badge/▶_现场跑一遍尺子-验伪演示台-27e0a4?style=for-the-badge)](https://cjx0712.github.io/apex-flagship/demo.html)
+[![舰队门户](https://img.shields.io/badge/舰队门户-apex--flagship-5b9dff?style=for-the-badge)](https://cjx0712.github.io/apex-flagship/)
+
 </div>
 
 ---
@@ -43,6 +46,8 @@
 ## ✦ APEX 舰队 · 从零造 AI，并造尺子证明它没骗你
 
 一套开源的**「AI 验伪」方法与实物**：零依赖 JavaScript，从反向自动微分一路造到能对话的迷你 LLM，每一环都配**可独立复现的基准**——包括公开我自己的失败。
+
+> 🖱️ **别信我，自己验**：[验伪演示台](https://cjx0712.github.io/apex-flagship/demo.html) —— 点一下，8 条数学不变量在你浏览器里实时跑（梯度检验 maxRelErr≈1e-10、LayerNorm 输出方差精确等于理论值…）。[舰队门户](https://cjx0712.github.io/apex-flagship/) 可导航全部仓库。
 
 | 仓库 | 自检 | 它证明了什么 |
 | --- | --- | --- |
