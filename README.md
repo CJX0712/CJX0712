@@ -61,25 +61,25 @@
 ## 📊 数据看板
 
 <!-- STATS:START -->
-> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-22 12:06 UTC · 数字由 API 实拉，不靠手改
+> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-22 17:20 UTC · 数字由 API 实拉，不靠手改
 
 | 指标 | 数值 |
 | --- | --- |
 | 公开仓库 | **296**（活跃 248 · 归档 48） |
 | Stars / Followers | **1** / **1** |
-| 代码体量 | ≈ 29.1 MB（GitHub 计 29,813 KB） |
+| 代码体量 | ≈ 30.2 MB（GitHub 计 30,895 KB） |
 | 语言分布 | Python 186 · HTML 72 · JavaScript 31 · TypeScript 5 · 其他 2 |
 | 活跃仓库 CI 覆盖 | **242/248**（97%） |
 | Fork | 0 |
 
 **最近推送**
 
-- [apex-flagship](https://github.com/CJX0712/apex-flagship) — APEX Flagship AI · 旗舰 AI 锻造舰队统一品牌门户与导航中枢（零重写·集大成·有尺子·闭环开源）… （今天）
-- [flagship-llm-chat](https://github.com/CJX0712/flagship-llm-chat) — 旗舰可对话迷你 LLM 服务层 · 复用三地基 · 权重持久化+重复惩罚+句末符 · 聚合自检12/12全绿 （今天）
-- [axiom-ai](https://github.com/CJX0712/axiom-ai) — AXIOM · 自验证 AI 微指令操作系统 —— 十层架构 × 1024 微指令 × 64 项数学不变量，零依赖单… （今天）
-- [reservoirforge](https://github.com/CJX0712/reservoirforge) — ReservoirForge: world-class reservoir computing fusion sui… （今天）
-- [flagship-transformer](https://github.com/CJX0712/flagship-transformer) — 旗舰Transformer参考实现+基准 · 零依赖 · 反向自动微分 · 归纳任务上注意力碾压无注意力基线（8/8… （今天）
+- [apex-flagship](https://github.com/CJX0712/apex-flagship) — 从零造 AI，并造尺子证明它没骗你 · APEX Flagship AI 舰队门户（零重写·集大成·有尺子·闭环开源… （今天）
 - [flagship-ai](https://github.com/CJX0712/flagship-ai) — 零依赖纯 JavaScript 手写 GPT 引擎：字符级分词 + Transformer + 手写反向传播 + A… （今天）
+- [axiom-ai](https://github.com/CJX0712/axiom-ai) — AXIOM · 自验证 AI 微指令操作系统 —— 十层架构 × 1024 微指令 × 64 项数学不变量，零依赖单… （今天）
+- [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) — 旗舰 AI 锻造闭环总装 · 四件实物(submodule) + 一键聚合自检 32/32 · 零重写/集大成/有尺… （今天）
+- [tianji-ai](https://github.com/CJX0712/tianji-ai) — 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × MoE × Mu… （今天）
+- [innovation-flagship-ai](https://github.com/CJX0712/innovation-flagship-ai) — 创新旗舰 AI · Innovation Flagship AI — 十层架构、零重写集大成、CPU 可运行可复现可… （今天）
 <!-- STATS:END -->
 
 ---

@@ -215,7 +215,7 @@
 | 13 | [ai-library-dashboard](https://github.com/CJX0712/ai-library-dashboard) | AI 资料库总览看板 —— 单文件 HTML，零依赖零构建，双击即用。 | 活跃 |
 | 23 | [ant-forge](https://github.com/CJX0712/ant-forge) | Single-file offline Langton's ant cellular automat… | 活跃 |
 | 25 | [apex-ai-core](https://github.com/CJX0712/apex-ai-core) | APEX · 世界顶级 AI 核心引擎 — 零依赖、全验证、开源。站在世界顶级算法之上。 | 归档 |
-| 26 | [apex-flagship](https://github.com/CJX0712/apex-flagship) | APEX Flagship AI · 旗舰 AI 锻造舰队统一品牌门户与导航中枢（零重写·集大成·有… | 活跃 |
+| 26 | [apex-flagship](https://github.com/CJX0712/apex-flagship) | 从零造 AI，并造尺子证明它没骗你 · APEX Flagship AI 舰队门户（零重写·集大成·… | 活跃 |
 | 28 | [astar-forge](https://github.com/CJX0712/astar-forge) | Single-file offline A* pathfinding forge with heap… | 活跃 |
 | 31 | [attn-forge](https://github.com/CJX0712/attn-forge) | 注意力锻造炉 — 纯 JS 手写 scaled dot-product self-attention… | 活跃 |
 | 39 | [avl-forge](https://github.com/CJX0712/avl-forge) | Single-file offline AVL tree forge with full invar… | 活跃 |
@@ -233,8 +233,8 @@
 | 73 | [denoise-forge](https://github.com/CJX0712/denoise-forge) | 从零手写的图像 DDPM 实验室 — U-Net + FiLM 时间条件 + DDIM，零依赖单文件… | 归档 |
 | 77 | [diff-scope](https://github.com/CJX0712/diff-scope) | 差分镜 —— 两段文本差在哪，几乎所有工具都能告诉你；这个工具想说的是它是怎么找到那个答案的。Mye… | 活跃 |
 | 79 | [diffusion-forge](https://github.com/CJX0712/diffusion-forge) | 从噪声中创造 · 单文件零依赖扩散模型实验室：DDPM/DDIM/Flow Matching 三范式… | 活跃 |
-| 95 | [flagship-ai-engine](https://github.com/CJX0712/flagship-ai-engine) | 旗舰AI引擎：零依赖、可验证、世界顶级 AI 算法集大成引擎（浏览器 + Node 双跑）。作者：晨… | 活跃 |
-| 98 | [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) | 旗舰 AI 锻造闭环总览 · 三件实物(submodule) + 一键聚合自检(8/8+9/9+9/… | 活跃 |
+| 95 | [flagship-ai-engine](https://github.com/CJX0712/flagship-ai-engine) | 旗舰AI引擎 · 零依赖 · 348 API 单文件内联 · 62/62 自检全绿 · 浏览器 + … | 活跃 |
+| 98 | [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) | 旗舰 AI 锻造闭环总装 · 四件实物(submodule) + 一键聚合自检 32/32 · 零重… | 活跃 |
 | 101 | [flowforge](https://github.com/CJX0712/flowforge) | FlowForge · 纯 NumPy 归一化流密度估计：RealNVP + MAF 精确雅可比 +… | 活跃 |
 | 102 | [forest-forge-v2](https://github.com/CJX0712/forest-forge-v2) | Random Forest 集成树实验室 · 纯JS零依赖单文件 · Breiman 2001 · … | 活跃 |
 | 107 | [fourier-forge](https://github.com/CJX0712/fourier-forge) | Single-file offline Fourier epicycles path drawing… | 活跃 |
@@ -301,9 +301,9 @@
 | 36 | [aurora-core](https://github.com/CJX0712/aurora-core) | 世界顶级 AI 数学内核：现代 SOTA Transformer 原语（RMSNorm/RoPE/S… | 归档 |
 | 94 | [flagship-ai](https://github.com/CJX0712/flagship-ai) | 零依赖纯 JavaScript 手写 GPT 引擎：字符级分词 + Transformer + 手写… | 活跃 |
 | 96 | [flagship-algo-forge](https://github.com/CJX0712/flagship-algo-forge) | 旗舰算法工具库 · 零依赖零构建 · 集大成/零重写 · 站在世界顶级成果之上的 AI 基础算法集（… | 活跃 |
-| 97 | [flagship-llm-chat](https://github.com/CJX0712/flagship-llm-chat) | 旗舰可对话迷你 LLM 服务层 · 复用三地基 · 权重持久化+重复惩罚+句末符 · 聚合自检12/… | 活跃 |
+| 97 | [flagship-llm-chat](https://github.com/CJX0712/flagship-llm-chat) | 旗舰可对话迷你 LLM 服务层 · ⑥ BPE 子词分词(命中率 76%→100%, token 省… | 活跃 |
 | 99 | [flagship-rag-engine](https://github.com/CJX0712/flagship-rag-engine) | 旗舰端到端推理引擎+RAG · KV-Cache逐位等价 · BM25检索 · 零依赖 · 自检9/… | 活跃 |
-| 100 | [flagship-transformer](https://github.com/CJX0712/flagship-transformer) | 旗舰Transformer参考实现+基准 · 零依赖 · 反向自动微分 · 归纳任务上注意力碾压无注… | 活跃 |
+| 100 | [flagship-transformer](https://github.com/CJX0712/flagship-transformer) | 旗舰Transformer参考实现+基准 · 零依赖 · 反向自动微分 · RoPE/YaRN · … | 活跃 |
 | 103 | [forge-1024](https://github.com/CJX0712/forge-1024) | forge-1024 · AI 微指令内核：1024 条可验证微指令（6×102 + 4×103），… | 活跃 |
 | 105 | [forge-core](https://github.com/CJX0712/forge-core) | Forge Core：零依赖、可验证的世界级 AI 数值内核（autograd/SVD/Jacobi… | 活跃 |
 | 106 | [forgestack](https://github.com/CJX0712/forgestack) | forgestack: 本地可运行 AI 系统 — 复用 forest/spectral/bpe 三… | 活跃 |
