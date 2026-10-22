@@ -51,7 +51,7 @@
 | [flagship-transformer](https://github.com/CJX0712/flagship-transformer) | 9/9 | 反向自动微分 + RoPE + YaRN；外推崩塌被尺子照出，再靠长上下文预训练把原生外推推到 **0.75** |
 | [flagship-rag-engine](https://github.com/CJX0712/flagship-rag-engine) | 9/9 | KV-Cache 增量解码与全量重算**逐位等价** + BM25 + 端到端 RAG |
 | [flagship-llm-chat](https://github.com/CJX0712/flagship-llm-chat) | 15/15 | 能对话的迷你 LLM；BPE 子词分词把答案命中率 **76% → 100%**、token 省 41% |
-| [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) | 29/29 | 四件实物一键聚合自检总装 |
+| [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) | 32/32 | 四件实物一键聚合自检总装 |
 
 > 诚实边界：玩具级规模（最大 d=64），量的是**工程正确性与方法可复现**，不是 SOTA 能力。
 > 值钱的不是参数，是**每一步都能被独立验证**——以及失败没被藏起来。
