@@ -2,7 +2,7 @@
 
 # ✦ 晨星 · Chen Xing
 
-**AI 系统构建者 · 验证优先 · 零重写集大成**
+**从零造 AI，并造尺子证明它没骗你** · AI 系统构建者 · 验证优先 · 零重写集大成
 
 [![Repos](https://img.shields.io/badge/Repos-296-blue)](https://github.com/CJX0712?tab=repositories)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/CJX0712/tianji-ai/blob/main/LICENSE)
@@ -24,7 +24,7 @@
 
 ## 我在做什么
 
-**用世界顶级已有成果，组装世界顶级 AI 系统 —— 并且让「它真的对」这件事可以被独立验证。**
+**从零造 AI，并造一把尺子证明它没骗你 —— 用世界顶级已有成果组装系统，并让「它真的对」这件事可以被独立验证。**
 
 不重新发明轮子。检索已被工业界验证的最优解（RadixAttention、PagedAttention、FlashAttention、Gated DeltaNet、MLA、MoE、Muon2、GGUF k-quants……），正确地组合起来，再用**可复现基准 + 数学不变量**证明它真的能用。
 
@@ -37,6 +37,24 @@
 | **闭环交付** | 可运行、可复现、可验证；失败如实报失败 | 门禁失败不允许放宽阈值凑绿 |
 
 > **失败也公开**：[densforge](https://github.com/CJX0712/densforge) 是一份公开的失败记录 —— 密度估计中位 −1.05% FAIL、流形 5/5 FAIL vs Isomap。它没通过，我把它挂在 README 上而不是藏起来。
+
+---
+
+## ✦ APEX 舰队 · 从零造 AI，并造尺子证明它没骗你
+
+一套开源的**「AI 验伪」方法与实物**：零依赖 JavaScript，从反向自动微分一路造到能对话的迷你 LLM，每一环都配**可独立复现的基准**——包括公开我自己的失败。
+
+| 仓库 | 自检 | 它证明了什么 |
+| --- | --- | --- |
+| [apex-flagship](https://github.com/CJX0712/apex-flagship) | 门户 | 舰队总览与导航中枢 |
+| [flagship-ai-engine](https://github.com/CJX0712/flagship-ai-engine) | 62/62 | 348 个 API 单文件内联 · 浏览器 / Node 双跑 |
+| [flagship-transformer](https://github.com/CJX0712/flagship-transformer) | 9/9 | 反向自动微分 + RoPE + YaRN；外推崩塌被尺子照出，再靠长上下文预训练把原生外推推到 **0.75** |
+| [flagship-rag-engine](https://github.com/CJX0712/flagship-rag-engine) | 9/9 | KV-Cache 增量解码与全量重算**逐位等价** + BM25 + 端到端 RAG |
+| [flagship-llm-chat](https://github.com/CJX0712/flagship-llm-chat) | 15/15 | 能对话的迷你 LLM；BPE 子词分词把答案命中率 **76% → 100%**、token 省 41% |
+| [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) | 29/29 | 四件实物一键聚合自检总装 |
+
+> 诚实边界：玩具级规模（最大 d=64），量的是**工程正确性与方法可复现**，不是 SOTA 能力。
+> 值钱的不是参数，是**每一步都能被独立验证**——以及失败没被藏起来。
 
 ---
 
