@@ -4,10 +4,10 @@
 
 **从零造 AI，并造尺子证明它没骗你** · AI 系统构建者 · 验证优先 · 零重写集大成
 
-[![Repos](https://img.shields.io/badge/Repos-297-blue)](https://github.com/CJX0712?tab=repositories)
+[![Repos](https://img.shields.io/badge/Repos-298-blue)](https://github.com/CJX0712?tab=repositories)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/CJX0712/tianji-ai/blob/main/LICENSE)
 [![Verification](https://img.shields.io/badge/Verification-invariants--first-brightgreen)](https://github.com/CJX0712/tianji-ai)
-[![Python](https://img.shields.io/badge/Python-187-3776AB?logo=python)](https://github.com/CJX0712?tab=repositories&language=python)
+[![Python](https://img.shields.io/badge/Python-188-3776AB?logo=python)](https://github.com/CJX0712?tab=repositories&language=python)
 [![HTML](https://img.shields.io/badge/HTML-71-E34F26?logo=html5)](https://github.com/CJX0712?tab=repositories&language=html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-32-F7DF1E?logo=javascript)](https://github.com/CJX0712?tab=repositories&language=javascript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://github.com/CJX0712?tab=repositories&language=typescript)
@@ -66,25 +66,25 @@
 ## 📊 数据看板
 
 <!-- STATS:START -->
-> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-23 11:51 UTC · 数字由 API 实拉，不靠手改
+> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-23 17:17 UTC · 数字由 API 实拉，不靠手改
 
 | 指标 | 数值 |
 | --- | --- |
-| 公开仓库 | **297**（活跃 249 · 归档 48） |
+| 公开仓库 | **298**（活跃 250 · 归档 48） |
 | Stars / Followers | **1** / **1** |
-| 代码体量 | ≈ 29.3 MB（GitHub 计 30,035 KB） |
-| 语言分布 | Python 187 · HTML 71 · JavaScript 32 · TypeScript 5 · 其他 2 |
-| 活跃仓库 CI 覆盖 | **243/249**（97%） |
+| 代码体量 | ≈ 29.5 MB（GitHub 计 30,231 KB） |
+| 语言分布 | Python 188 · HTML 71 · JavaScript 32 · TypeScript 5 · 其他 2 |
+| 活跃仓库 CI 覆盖 | **243/250**（97%） |
 | Fork | 0 |
 
 **最近推送**
 
-- [apex-flagship](https://github.com/CJX0712/apex-flagship) — 从零造 AI，并造尺子证明它没骗你 · APEX Flagship AI 舰队门户（零重写·集大成·有尺子·闭环开源… （今天）
-- [axiom-ai](https://github.com/CJX0712/axiom-ai) — AXIOM · 自验证 AI 微指令操作系统 —— 十层架构 × 1024 微指令 × 64 项数学不变量，零依赖单… （今天）
 - [flagship-ai](https://github.com/CJX0712/flagship-ai) — 零依赖纯 JavaScript 手写 GPT 引擎：字符级分词 + Transformer + 手写反向传播 + A… （今天）
+- [axiom-ai](https://github.com/CJX0712/axiom-ai) — AXIOM · 自验证 AI 微指令操作系统 —— 十层架构 × 1024 微指令 × 64 项数学不变量，零依赖单… （今天）
+- [smart-hardware-bridge](https://github.com/CJX0712/smart-hardware-bridge) — 智能硬件接入 WorkBuddy · MCP 桥接服务器 (MQTT+HTTP, 可扩展) · 作者晨星 （今天）
+- [apex-flagship](https://github.com/CJX0712/apex-flagship) — 从零造 AI，并造尺子证明它没骗你 · APEX Flagship AI 舰队门户（零重写·集大成·有尺子·闭环开源… （今天）
 - [progforge](https://github.com/CJX0712/progforge) —  （今天）
-- [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) — 旗舰 AI 锻造闭环总装 · 四件实物(submodule) + 一键聚合自检 32/32 · 零重写/集大成/有尺… （今天）
-- [tianji-ai](https://github.com/CJX0712/tianji-ai) — 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × MoE × Mu… （今天）
+- [flagship-monorepo](https://github.com/CJX0712/flagship-monorepo) — 旗舰 AI 锻造闭环总装 · 四件实物(submodule) + 一键聚合自检 32/32 · 零重写/集大成/有尺… （1 天前）
 <!-- STATS:END -->
 
 ---
@@ -223,7 +223,7 @@ make verify-all      # = make test + make gates + make quickstart
 
 ---
 
-## 📇 全部 297 个仓库
+## 📇 全部 298 个仓库
 
 按语言分组的完整清单见 **[REPOSITORY_INDEX.md](./REPOSITORY_INDEX.md)**（零遗漏；归档项目保留但不推荐 —— 它们是历史迭代的诚实痕迹）。
 
