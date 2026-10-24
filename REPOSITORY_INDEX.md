@@ -1,16 +1,16 @@
 # 📇 全量仓库索引 · Repository Index
 
-> 本文件由主页 README 拆分而来，包含 **302 个公开仓库**的完整清单。
+> 本文件由主页 README 拆分而来，包含 **303 个公开仓库**的完整清单。
 > 主页只放精选；这里是全部。按语言分组，表格内为「仓库 / 一句话 / 状态」。
 
 ## 全量仓库索引
 
-**302 个仓库，零遗漏。** 按形态分组，字母序。归档项目保留但不推荐 —— 它们是历史迭代的诚实痕迹。
+**303 个仓库，零遗漏。** 按形态分组，字母序。归档项目保留但不推荐 —— 它们是历史迭代的诚实痕迹。
 
-### Python · 算法系统与基准 · 188（活跃 154）
+### Python · 算法系统与基准 · 187（活跃 153）
 
 <details>
-<summary>展开 188 个仓库</summary>
+<summary>展开 187 个仓库</summary>
 
 | # | 仓库 | 一句话 | 状态 |
 | ---: | --- | --- | --- |
@@ -74,7 +74,6 @@
 | 92 | [featureforge](https://github.com/CJX0712/featureforge) | FeatureForge — 自动化特征工程×选择器融合(FEFFuse)。零重型依赖、可审计、可复… | 活跃 |
 | 93 | [fedforge](https://github.com/CJX0712/fedforge) | FedForge · 模块化联邦学习：FedAvg/FedMedian/FedTrimmedMean… | 活跃 |
 | 94 | [FeynmanForge](https://github.com/CJX0712/FeynmanForge) | FeynmanForge · 世界级符号回归系统（Age-Fitness Pareto 遗传编程）·… | 活跃 |
-| 106 | [forge-ai](https://github.com/CJX0712/forge-ai) | 世界级 AI 算法内核：从零手写 · 数学不变量可验证 · 与 sklearn/numpy 交叉验证… | 活跃 |
 | 110 | [gacsforge](https://github.com/CJX0712/gacsforge) | GACSForge - 半监督学习系统: 旗舰 GACS 图-树混合类平衡自训练, aggregat… | 归档 |
 | 111 | [gaussforge](https://github.com/CJX0712/gaussforge) | GaussForge: modular Gaussian Process system with A… | 归档 |
 | 112 | [glassbox](https://github.com/CJX0712/glassbox) | Offline, glass-box RAG engine: BM25 + dense + RRF … | 活跃 |
@@ -106,102 +105,102 @@
 | 161 | [mooforge](https://github.com/CJX0712/mooforge) | MOOForge: multi-objective EMO toolkit with the nov… | 活跃 |
 | 163 | [morningstar-ai](https://github.com/CJX0712/morningstar-ai) | 晨星 AI · MorningStar 系统原型（模块化 RAG + Agent，Python 3.… | 归档 |
 | 166 | [morningstar-ai-forge](https://github.com/CJX0712/morningstar-ai-forge) | 世界顶级 AI 系统底座：十层架构 + 数学不变量 + 跨库交叉验证（forge 纯实现 vs nu… | 活跃 |
-| 167 | [MorningStar-RAG](https://github.com/CJX0712/MorningStar-RAG) | ✦ 晨星AI · 世界顶级检索增强生成(RAG)引擎：BM25+FAISS+LSA+RRF+MMR+… | 活跃 |
-| 169 | [mvforge](https://github.com/CJX0712/mvforge) | MVForge · 多模态/多视图表征学习与融合系统 (纯 numpy 离线兜底 + 可选 mvle… | 活跃 |
-| 170 | [nasforge](https://github.com/CJX0712/nasforge) | NasForge · 神经架构搜索：DARTS 二阶 + GRL + 单样本权重继承 + zero-… | 活跃 |
-| 171 | [nashforge](https://github.com/CJX0712/nashforge) | NashForge：不完美信息博弈精确均衡求解（序列式 LP oracle + CFR/CFR+ +… | 活跃 |
-| 172 | [nebula-ai-core](https://github.com/CJX0712/nebula-ai-core) | 11 个 AI 功能模块，每块 = Protocol 接口 + 默认实现；默认后端零依赖离线可跑，生… | 归档 |
-| 173 | [nebula-ai-stack](https://github.com/CJX0712/nebula-ai-stack) | 在无 GPU、15GB 内存的 Windows 上跑通「文档 → 检索 → 重排 → 引用生成 → … | 活跃 |
-| 174 | [neuroforge](https://github.com/CJX0712/neuroforge) | NeuroForge v0.1.0 — 深度强化学习训练系统（Gymnasium+SB3+Optun… | 活跃 |
-| 175 | [neurosymforge](https://github.com/CJX0712/neurosymforge) | NeuroSymForge: 神经符号可微分 ILP / 张量化逻辑网络（LogicFuse 旗舰，… | 活跃 |
-| 176 | [nexus-ai-core](https://github.com/CJX0712/nexus-ai-core) | AI 能力中台：模型网关 / 知识检索 / 智能体 / 工作流 / 记忆；无 Key、无网络、无 G… | 活跃 |
-| 177 | [nexus-ai-platform](https://github.com/CJX0712/nexus-ai-platform) | NexusAI 平台 · 模块化 AI 能力中台：模型网关 / 知识检索 / 智能体（Python … | 活跃 |
-| 180 | [nodeforge](https://github.com/CJX0712/nodeforge) | NodeForge: reproducible GNN node-classification be… | 活跃 |
-| 181 | [notearsforge](https://github.com/CJX0712/notearsforge) | World-class causal-discovery toolkit (GES/PC/NOTEA… | 归档 |
-| 183 | [novaai-stack](https://github.com/CJX0712/novaai-stack) | 零依赖默认的 RAG + ReAct Agent：ingest / embed / vectorst… | 活跃 |
-| 184 | [novamind](https://github.com/CJX0712/novamind) | Protocol-first RAG agent system, offline-verifiabl… | 活跃 |
-| 185 | [novamind-rag](https://github.com/CJX0712/novamind-rag) | FAISS + BM25 双路召回，ONNX cross-encoder 按 0.3 加权融合；Re… | 归档 |
-| 186 | [odeforge](https://github.com/CJX0712/odeforge) | ODEForge: 连续时间动力学求解 + 可微分积分。Yoshida 辛复合 + 复步长哈密顿检测… | 活跃 |
-| 187 | [offlineforge](https://github.com/CJX0712/offlineforge) | OfflineForge — 离线强化学习（Offline RL + OPE）系统。零依赖 nump… | 活跃 |
-| 188 | [onlineforge](https://github.com/CJX0712/onlineforge) | OnlineForge · 流式/增量学习系统（river + scikit-learn + 纯 n… | 活跃 |
-| 189 | [oodforge](https://github.com/CJX0712/oodforge) | OODForge v0.1.0 · 分布外检测(OOD)与置信度校准系统 · 置信度门控路由CGOR… | 活跃 |
-| 190 | [operatorforge](https://github.com/CJX0712/operatorforge) | OperatorForge · 世界级神经算子/科学机器学习系统（FNO / DeepONet / … | 活跃 |
-| 191 | [optiforge](https://github.com/CJX0712/optiforge) | OptiForge · 组合优化套件：TSP / 背包 / 分配，OR-Tools CP-SAT +… | 活跃 |
-| 194 | [otforge](https://github.com/CJX0712/otforge) | World-class deterministic optimal transport: exact… | 活跃 |
-| 196 | [perclass-mia](https://github.com/CJX0712/perclass-mia) | PerClass-MIA: 免影子模型的逐类参考归一化成员推断攻击 — AUC 0.727 vs 强… | 活跃 |
-| 197 | [pgmforge](https://github.com/CJX0712/pgmforge) | PgmForge — 概率图模型精确与近似推断系统：变量消去/团树/环形置信传播/平均场/Gibbs… | 活跃 |
-| 199 | [phosphor-ai-stack](https://github.com/CJX0712/phosphor-ai-stack) | Phosphor AI Stack — 端到端检索增强智能体平台：摄入→分块→向量化→混合检索→重排… | 活跃 |
-| 200 | [phosphor-py](https://github.com/CJX0712/phosphor-py) | Phosphor · Python 版世界顶级 AI 数学与算法内核（numpy 后端 + 反向模式… | 活跃 |
-| 201 | [phosphorus](https://github.com/CJX0712/phosphorus) | Phosphorus (晨星) - Ternary-native 1.58-bit LLM trai… | 活跃 |
-| 202 | [portforge](https://github.com/CJX0712/portforge) | PortForge · 世界级投资组合优化系统（作者：晨星） | 活跃 |
-| 203 | [privforge](https://github.com/CJX0712/privforge) | PrivForge · 世界顶级差分隐私机器学习系统 (DP-SGD + RDP 矩会计 + 自适应… | 活跃 |
-| 204 | [progforge](https://github.com/CJX0712/progforge) |  | 活跃 |
-| 206 | [ptqforge](https://github.com/CJX0712/ptqforge) | PTQForge: post-training quantization (per-channel … | 归档 |
-| 207 | [qiming-ai](https://github.com/CJX0712/qiming-ai) | 启明 Qiming —— 可验证的检索增强生成系统（Verifiable RAG）：混合检索 + C… | 活跃 |
-| 208 | [quantforge](https://github.com/CJX0712/quantforge) | Post-training quantization research toolkit: RTN, … | 活跃 |
-| 209 | [quasar-ai-runtime](https://github.com/CJX0712/quasar-ai-runtime) | 混合检索 + 工具调用智能体 + 证据绑定回答；离线档零模型零网络全绿，在线档接本机 Ollama，… | 活跃 |
-| 210 | [ragnext](https://github.com/CJX0712/ragnext) | RAGNext v0.1.0 — 模块化检索增强生成（RAG）系统。CPU 可跑、一键复现、模块可独… | 活跃 |
-| 211 | [rankforge](https://github.com/CJX0712/rankforge) | RankForge · 世界顶级 Learning to Rank 系统（LightGBM lamb… | 活跃 |
-| 214 | [reasonforge](https://github.com/CJX0712/reasonforge) | 系统 2 可验证推理引擎：声明级符号验证 + VWSC 聚合 + CEGAR 精化，101 项确定性… | 活跃 |
-| 215 | [recforge](https://github.com/CJX0712/recforge) | RecForge: 模块化隐式反馈推荐系统基准框架 | 活跃 |
-| 216 | [recoforge](https://github.com/CJX0712/recoforge) | RecoForge: 混合协同过滤推荐系统 (手写WRMF-ALS + implicit SOTA后… | 归档 |
-| 217 | [rectforge](https://github.com/CJX0712/rectforge) | RectForge - deterministic pure-NumPy flow matching… | 活跃 |
-| 219 | [reservoirforge](https://github.com/CJX0712/reservoirforge) | ReservoirForge: world-class reservoir computing fu… | 活跃 |
-| 220 | [riverforge](https://github.com/CJX0712/riverforge) | RiverForge — 在线学习（流式 / 概念漂移）系统。复用 scikit-learn/riv… | 归档 |
-| 222 | [rlforge](https://github.com/CJX0712/rlforge) | RlForge · 世界顶级强化学习系统（纯 NumPy·确定性·可验证）。天枢十层架构谱系，补全 … | 活跃 |
-| 223 | [robustforge](https://github.com/CJX0712/robustforge) | RobustForge: 对抗鲁棒性 / 对抗机器学习系统 (作者: 晨星) — 纯 numpy 离… | 活跃 |
-| 227 | [scoreforge](https://github.com/CJX0712/scoreforge) | ScoreForge — 从零手写、集大成的 score-based 生成模型基准（DDPM+DDI… | 活跃 |
-| 228 | [searchforge](https://github.com/CJX0712/searchforge) | SearchForge · 世界级神经/混合检索与学习重排系统（BM25+FAISS/LSI 双路召… | 活跃 |
-| 229 | [semiforge](https://github.com/CJX0712/semiforge) | SemiForge - 半监督学习系统: 旗舰 GACS 图-树混合类平衡自训练, aggregat… | 活跃 |
-| 230 | [seqforge](https://github.com/CJX0712/seqforge) | SeqForge · 序贯贝叶斯推断与状态空间估计实验台（KF/EKF/IEKF/UKF + RTS… | 活跃 |
-| 231 | [seqmineforge](https://github.com/CJX0712/seqmineforge) | SeqMineForge · 确定性序列模式挖掘：SeqFuse 旗舰比最强 SOTA 快 1.84… | 活跃 |
-| 232 | [sindyforge](https://github.com/CJX0712/sindyforge) | SindyForge · 稀疏非线性动力学系统辨识 (SINDy / StabSINDy)，纯 nu… | 活跃 |
-| 233 | [SketchForge](https://github.com/CJX0712/SketchForge) | Fixed-budget data-stream sketching with data-drive… | 活跃 |
-| 234 | [smart-hardware-bridge](https://github.com/CJX0712/smart-hardware-bridge) | 智能硬件接入 WorkBuddy · MCP 桥接服务器 (MQTT+HTTP, 可扩展) · 作者… | 活跃 |
-| 236 | [sparseforge](https://github.com/CJX0712/sparseforge) | SparseForge · world-class compressed sensing / spa… | 活跃 |
-| 238 | [spectralforge](https://github.com/CJX0712/spectralforge) | SpectralForge v0.1.0 谱聚类系统（作者：晨星） | 活跃 |
-| 239 | [ssmforge](https://github.com/CJX0712/ssmforge) | SSMForge · 结构化状态空间模型 (S4/S4D)：S4DFuse 旗舰在 T=1000 a… | 活跃 |
-| 240 | [StarAI](https://github.com/CJX0712/StarAI) | 晨星智能引擎 · 基于世界顶级机器学习库的自动建模/统计化模型选择/防泄漏集成学习系统（零重写·集大… | 活跃 |
-| 243 | [starforge-ai](https://github.com/CJX0712/starforge-ai) | 接口驱动的 AI 工程骨架：模块只依赖 ABC 抽象接口，内置确定性 Mock 后端，零网络零密钥即… | 活跃 |
-| 245 | [starlight-ai-stack](https://github.com/CJX0712/starlight-ai-stack) | 本地优先 RAG：摄取 → 混合检索 → 引用生成，全链路可在无 GPU 的 Windows 机器上… | 归档 |
-| 246 | [starlight-rag](https://github.com/CJX0712/starlight-rag) | BM25 + 向量双路召回 RRF 融合；查询覆盖率重排权重封顶 50%，防止弱重排器压掉正确答案。… | 活跃 |
-| 248 | [stellar-ai-core](https://github.com/CJX0712/stellar-ai-core) | 以「单一职责 + 清晰接口 + 能力注册表」组织 AI 能力，模块间只经抽象契约通信，可独立验证。 | 归档 |
-| 249 | [stellar-ai-stack](https://github.com/CJX0712/stellar-ai-stack) | 默认零依赖、离线可跑、确定性可验证：mock LLM + BLAKE2b 哈希嵌入 + 内存余弦索引… | 归档 |
-| 250 | [stellar-ai-workbench](https://github.com/CJX0712/stellar-ai-workbench) | 桌面 AI 工作台：统一模型网关（故障转移 + Mock）、可插拔 RAG、智能体编排、工具注册与记… | 归档 |
-| 252 | [stellar-nexus](https://github.com/CJX0712/stellar-nexus) | 可自证的复合智能系统：检索增强 + 自适应链路路由 + 断言级归因校验 + 智能体闭环 + 评测门禁… | 归档 |
-| 254 | [SubmodForge](https://github.com/CJX0712/SubmodForge) | 世界顶级子模优化库 · 数学保证 (1-1/e) · 精确 SFM · 零依赖 · 作者：晨星 | 活跃 |
-| 257 | [survforge](https://github.com/CJX0712/survforge) | SurvForge · 模块化生存分析：Cox / 样条 Cox / XGBoost AFT + C… | 活跃 |
-| 259 | [svmforge](https://github.com/CJX0712/svmforge) | svmforge — world-class kernel-SVM system (author 晨… | 活跃 |
-| 260 | [symforge](https://github.com/CJX0712/symforge) | SymForge: world-class symbolic regression / formul… | 活跃 |
-| 262 | [synthmind-forge](https://github.com/CJX0712/synthmind-forge) | SynthMind-Forge · RCG-NAS — 递归批判引导的神经网络架构搜索引擎。随机抽签… | 活跃 |
-| 263 | [tabulaforge](https://github.com/CJX0712/tabulaforge) | TabulaForge: 模块化自动化表格机器学习 (XGBoost + LightGBM + Op… | 活跃 |
-| 264 | [tabularofflineforge](https://github.com/CJX0712/tabularofflineforge) | TabularOfflineForge: 离线强化学习（Offline RL + OPE），以表格 … | 归档 |
-| 265 | [tekmor](https://github.com/CJX0712/tekmor) | 本地优先、端到端可验证的 RAG 知识库与证据锚定平台（Python 3.13 + 单文件 HTML… | 活跃 |
-| 266 | [tensorforge](https://github.com/CJX0712/tensorforge) | TensorForge v0.1.0 — 世界顶级张量分解系统 (作者: 晨星) | 活跃 |
-| 267 | [tianji-ai](https://github.com/CJX0712/tianji-ai) | 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × … | 活跃 |
-| 268 | [tianshu-ai](https://github.com/CJX0712/tianshu-ai) | 天枢 TianShu — 世界顶级 AI 系统：十层架构 · 元路由 · 融合旗舰 · 可证门禁。零… | 活跃 |
-| 270 | [topicforge](https://github.com/CJX0712/topicforge) | TopicForge · 世界级主题建模系统（LDA/NMF/TopicFuse），纯 NumPy … | 活跃 |
-| 271 | [topoforge](https://github.com/CJX0712/topoforge) | TopoForge — 持久同调拓扑数据分析（TDA）引擎：Vietoris-Rips 复形 + 标… | 活跃 |
-| 272 | [transforge](https://github.com/CJX0712/transforge) | TransForge · 可验证的最优传输系统：TF-epsKnee/TF-SPR/TF-UFlow… | 活跃 |
-| 276 | [tscforge](https://github.com/CJX0712/tscforge) | TscForge - deterministic time series classificatio… | 活跃 |
-| 277 | [tsforge](https://github.com/CJX0712/tsforge) | tsforge: 时间序列预测系统 — 复用 statsmodels/sklearn/pmdarim… | 活跃 |
-| 278 | [upliftforge](https://github.com/CJX0712/upliftforge) | UpliftForge · 世界顶级异质处理效应/增益建模(CATE)系统：交叉拟合 X/DR/R-… | 活跃 |
-| 279 | [vaeforge](https://github.com/CJX0712/vaeforge) | 世界级变分自编码器(VAE/IWAE)系统 —— 纯 numpy、离线、确定性可复现、CPU-onl… | 活跃 |
-| 280 | [valuaforge](https://github.com/CJX0712/valuaforge) | ValuaForge — 训练集数据点估值（Data Shapley / β-Shapley）：双锚… | 活跃 |
-| 281 | [vecforge](https://github.com/CJX0712/vecforge) | VecForge: 文档向量检索与聚类系统 (FAISS + scikit-learn 兜底) | 活跃 |
-| 282 | [veritas-ai](https://github.com/CJX0712/veritas-ai) | 不变量优先、可自进化的 Agent 运行时 —— 把「正确性」从测试环节提升到架构层。 | 活跃 |
-| 284 | [visionforge](https://github.com/CJX0712/visionforge) | VisionForge: CPU-only content-based image retrieva… | 活跃 |
-| 285 | [voiceforge](https://github.com/CJX0712/voiceforge) | VoiceForge: 语音/音频机器学习系统 — 复用 librosa/whisper/speec… | 活跃 |
-| 286 | [watermarkforge](https://github.com/CJX0712/watermarkforge) | watermarkforge: channel-diverse & distortion-free … | 活跃 |
-| 290 | [world-class-ai](https://github.com/CJX0712/world-class-ai) | 世界顶级 AI 系统 · 十层分解架构 · 第十层 1024 微指令（零重写·集大成·闭环交付·可验… | 归档 |
-| 293 | [worldai](https://github.com/CJX0712/worldai) | 本地优先、CPU 可跑、一键可复现的 RAG + Agent 平台 \| Local-first C… | 活跃 |
-| 294 | [worldai-nexus](https://github.com/CJX0712/worldai-nexus) | 本地优先的 RAG 链路：入库 → 混合检索 → 工具路由 → 生成；默认零依赖 Mock，可切 O… | 归档 |
-| 295 | [worldai-rag](https://github.com/CJX0712/worldai-rag) | 模块化 RAG + Agent 系统：faiss + BM25 混合检索 / ONNX 重排 / G… | 归档 |
-| 296 | [worldai-stack](https://github.com/CJX0712/worldai-stack) | RAG 知识库 + ReAct 工具智能体：FastEmbed(ONNX) / FAISS / Ra… | 归档 |
-| 297 | [worldforge-ai](https://github.com/CJX0712/worldforge-ai) | 零依赖核心、可插拔后端的端到端 AI 系统：算法内核 + 混合检索 + Agent + 网关 + 评… | 活跃 |
-| 298 | [worldrag](https://github.com/CJX0712/worldrag) | CJK 单字+双字 BM25（零依赖 tokenizer）+ 向量双路召回；独立索引评测 recal… | 归档 |
-| 301 | [zhi-rag](https://github.com/CJX0712/zhi-rag) | ZhiDa: Multimodal RAG engine — hybrid retrieval (B… | 活跃 |
-| 302 | [zhishu](https://github.com/CJX0712/zhishu) | 智枢 ZhiShu：本地优先、混合推理的企业级 AI 知识中枢与智能体平台（RAG + Agent，… | 活跃 |
+| 168 | [MorningStar-RAG](https://github.com/CJX0712/MorningStar-RAG) | ✦ 晨星AI · 世界顶级检索增强生成(RAG)引擎：BM25+FAISS+LSA+RRF+MMR+… | 活跃 |
+| 170 | [mvforge](https://github.com/CJX0712/mvforge) | MVForge · 多模态/多视图表征学习与融合系统 (纯 numpy 离线兜底 + 可选 mvle… | 活跃 |
+| 171 | [nasforge](https://github.com/CJX0712/nasforge) | NasForge · 神经架构搜索：DARTS 二阶 + GRL + 单样本权重继承 + zero-… | 活跃 |
+| 172 | [nashforge](https://github.com/CJX0712/nashforge) | NashForge：不完美信息博弈精确均衡求解（序列式 LP oracle + CFR/CFR+ +… | 活跃 |
+| 173 | [nebula-ai-core](https://github.com/CJX0712/nebula-ai-core) | 11 个 AI 功能模块，每块 = Protocol 接口 + 默认实现；默认后端零依赖离线可跑，生… | 归档 |
+| 174 | [nebula-ai-stack](https://github.com/CJX0712/nebula-ai-stack) | 在无 GPU、15GB 内存的 Windows 上跑通「文档 → 检索 → 重排 → 引用生成 → … | 活跃 |
+| 175 | [neuroforge](https://github.com/CJX0712/neuroforge) | NeuroForge v0.1.0 — 深度强化学习训练系统（Gymnasium+SB3+Optun… | 活跃 |
+| 176 | [neurosymforge](https://github.com/CJX0712/neurosymforge) | NeuroSymForge: 神经符号可微分 ILP / 张量化逻辑网络（LogicFuse 旗舰，… | 活跃 |
+| 177 | [nexus-ai-core](https://github.com/CJX0712/nexus-ai-core) | AI 能力中台：模型网关 / 知识检索 / 智能体 / 工作流 / 记忆；无 Key、无网络、无 G… | 活跃 |
+| 178 | [nexus-ai-platform](https://github.com/CJX0712/nexus-ai-platform) | NexusAI 平台 · 模块化 AI 能力中台：模型网关 / 知识检索 / 智能体（Python … | 活跃 |
+| 181 | [nodeforge](https://github.com/CJX0712/nodeforge) | NodeForge: reproducible GNN node-classification be… | 活跃 |
+| 182 | [notearsforge](https://github.com/CJX0712/notearsforge) | World-class causal-discovery toolkit (GES/PC/NOTEA… | 归档 |
+| 184 | [novaai-stack](https://github.com/CJX0712/novaai-stack) | 零依赖默认的 RAG + ReAct Agent：ingest / embed / vectorst… | 活跃 |
+| 185 | [novamind](https://github.com/CJX0712/novamind) | Protocol-first RAG agent system, offline-verifiabl… | 活跃 |
+| 186 | [novamind-rag](https://github.com/CJX0712/novamind-rag) | FAISS + BM25 双路召回，ONNX cross-encoder 按 0.3 加权融合；Re… | 归档 |
+| 187 | [odeforge](https://github.com/CJX0712/odeforge) | ODEForge: 连续时间动力学求解 + 可微分积分。Yoshida 辛复合 + 复步长哈密顿检测… | 活跃 |
+| 188 | [offlineforge](https://github.com/CJX0712/offlineforge) | OfflineForge — 离线强化学习（Offline RL + OPE）系统。零依赖 nump… | 活跃 |
+| 189 | [onlineforge](https://github.com/CJX0712/onlineforge) | OnlineForge · 流式/增量学习系统（river + scikit-learn + 纯 n… | 活跃 |
+| 190 | [oodforge](https://github.com/CJX0712/oodforge) | OODForge v0.1.0 · 分布外检测(OOD)与置信度校准系统 · 置信度门控路由CGOR… | 活跃 |
+| 191 | [operatorforge](https://github.com/CJX0712/operatorforge) | OperatorForge · 世界级神经算子/科学机器学习系统（FNO / DeepONet / … | 活跃 |
+| 192 | [optiforge](https://github.com/CJX0712/optiforge) | OptiForge · 组合优化套件：TSP / 背包 / 分配，OR-Tools CP-SAT +… | 活跃 |
+| 195 | [otforge](https://github.com/CJX0712/otforge) | World-class deterministic optimal transport: exact… | 活跃 |
+| 197 | [perclass-mia](https://github.com/CJX0712/perclass-mia) | PerClass-MIA: 免影子模型的逐类参考归一化成员推断攻击 — AUC 0.727 vs 强… | 活跃 |
+| 198 | [pgmforge](https://github.com/CJX0712/pgmforge) | PgmForge — 概率图模型精确与近似推断系统：变量消去/团树/环形置信传播/平均场/Gibbs… | 活跃 |
+| 200 | [phosphor-ai-stack](https://github.com/CJX0712/phosphor-ai-stack) | Phosphor AI Stack — 端到端检索增强智能体平台：摄入→分块→向量化→混合检索→重排… | 活跃 |
+| 201 | [phosphor-py](https://github.com/CJX0712/phosphor-py) | Phosphor · Python 版世界顶级 AI 数学与算法内核（numpy 后端 + 反向模式… | 活跃 |
+| 202 | [phosphorus](https://github.com/CJX0712/phosphorus) | Phosphorus (晨星) - Ternary-native 1.58-bit LLM trai… | 活跃 |
+| 203 | [portforge](https://github.com/CJX0712/portforge) | PortForge · 世界级投资组合优化系统（作者：晨星） | 活跃 |
+| 204 | [privforge](https://github.com/CJX0712/privforge) | PrivForge · 世界顶级差分隐私机器学习系统 (DP-SGD + RDP 矩会计 + 自适应… | 活跃 |
+| 205 | [progforge](https://github.com/CJX0712/progforge) |  | 活跃 |
+| 207 | [ptqforge](https://github.com/CJX0712/ptqforge) | PTQForge: post-training quantization (per-channel … | 归档 |
+| 208 | [qiming-ai](https://github.com/CJX0712/qiming-ai) | 启明 Qiming —— 可验证的检索增强生成系统（Verifiable RAG）：混合检索 + C… | 活跃 |
+| 209 | [quantforge](https://github.com/CJX0712/quantforge) | Post-training quantization research toolkit: RTN, … | 活跃 |
+| 210 | [quasar-ai-runtime](https://github.com/CJX0712/quasar-ai-runtime) | 混合检索 + 工具调用智能体 + 证据绑定回答；离线档零模型零网络全绿，在线档接本机 Ollama，… | 活跃 |
+| 211 | [ragnext](https://github.com/CJX0712/ragnext) | RAGNext v0.1.0 — 模块化检索增强生成（RAG）系统。CPU 可跑、一键复现、模块可独… | 活跃 |
+| 212 | [rankforge](https://github.com/CJX0712/rankforge) | RankForge · 世界顶级 Learning to Rank 系统（LightGBM lamb… | 活跃 |
+| 215 | [reasonforge](https://github.com/CJX0712/reasonforge) | 系统 2 可验证推理引擎：声明级符号验证 + VWSC 聚合 + CEGAR 精化，101 项确定性… | 活跃 |
+| 216 | [recforge](https://github.com/CJX0712/recforge) | RecForge: 模块化隐式反馈推荐系统基准框架 | 活跃 |
+| 217 | [recoforge](https://github.com/CJX0712/recoforge) | RecoForge: 混合协同过滤推荐系统 (手写WRMF-ALS + implicit SOTA后… | 归档 |
+| 218 | [rectforge](https://github.com/CJX0712/rectforge) | RectForge - deterministic pure-NumPy flow matching… | 活跃 |
+| 220 | [reservoirforge](https://github.com/CJX0712/reservoirforge) | ReservoirForge: world-class reservoir computing fu… | 活跃 |
+| 221 | [riverforge](https://github.com/CJX0712/riverforge) | RiverForge — 在线学习（流式 / 概念漂移）系统。复用 scikit-learn/riv… | 归档 |
+| 223 | [rlforge](https://github.com/CJX0712/rlforge) | RlForge · 世界顶级强化学习系统（纯 NumPy·确定性·可验证）。天枢十层架构谱系，补全 … | 活跃 |
+| 224 | [robustforge](https://github.com/CJX0712/robustforge) | RobustForge: 对抗鲁棒性 / 对抗机器学习系统 (作者: 晨星) — 纯 numpy 离… | 活跃 |
+| 228 | [scoreforge](https://github.com/CJX0712/scoreforge) | ScoreForge — 从零手写、集大成的 score-based 生成模型基准（DDPM+DDI… | 活跃 |
+| 229 | [searchforge](https://github.com/CJX0712/searchforge) | SearchForge · 世界级神经/混合检索与学习重排系统（BM25+FAISS/LSI 双路召… | 活跃 |
+| 230 | [semiforge](https://github.com/CJX0712/semiforge) | SemiForge - 半监督学习系统: 旗舰 GACS 图-树混合类平衡自训练, aggregat… | 活跃 |
+| 231 | [seqforge](https://github.com/CJX0712/seqforge) | SeqForge · 序贯贝叶斯推断与状态空间估计实验台（KF/EKF/IEKF/UKF + RTS… | 活跃 |
+| 232 | [seqmineforge](https://github.com/CJX0712/seqmineforge) | SeqMineForge · 确定性序列模式挖掘：SeqFuse 旗舰比最强 SOTA 快 1.84… | 活跃 |
+| 233 | [sindyforge](https://github.com/CJX0712/sindyforge) | SindyForge · 稀疏非线性动力学系统辨识 (SINDy / StabSINDy)，纯 nu… | 活跃 |
+| 234 | [SketchForge](https://github.com/CJX0712/SketchForge) | Fixed-budget data-stream sketching with data-drive… | 活跃 |
+| 235 | [smart-hardware-bridge](https://github.com/CJX0712/smart-hardware-bridge) | 智能硬件接入 WorkBuddy · MCP 桥接服务器 (MQTT+HTTP, 可扩展) · 作者… | 活跃 |
+| 237 | [sparseforge](https://github.com/CJX0712/sparseforge) | SparseForge · world-class compressed sensing / spa… | 活跃 |
+| 239 | [spectralforge](https://github.com/CJX0712/spectralforge) | SpectralForge v0.1.0 谱聚类系统（作者：晨星） | 活跃 |
+| 240 | [ssmforge](https://github.com/CJX0712/ssmforge) | SSMForge · 结构化状态空间模型 (S4/S4D)：S4DFuse 旗舰在 T=1000 a… | 活跃 |
+| 241 | [StarAI](https://github.com/CJX0712/StarAI) | 晨星智能引擎 · 基于世界顶级机器学习库的自动建模/统计化模型选择/防泄漏集成学习系统（零重写·集大… | 活跃 |
+| 244 | [starforge-ai](https://github.com/CJX0712/starforge-ai) | 接口驱动的 AI 工程骨架：模块只依赖 ABC 抽象接口，内置确定性 Mock 后端，零网络零密钥即… | 活跃 |
+| 246 | [starlight-ai-stack](https://github.com/CJX0712/starlight-ai-stack) | 本地优先 RAG：摄取 → 混合检索 → 引用生成，全链路可在无 GPU 的 Windows 机器上… | 归档 |
+| 247 | [starlight-rag](https://github.com/CJX0712/starlight-rag) | BM25 + 向量双路召回 RRF 融合；查询覆盖率重排权重封顶 50%，防止弱重排器压掉正确答案。… | 活跃 |
+| 249 | [stellar-ai-core](https://github.com/CJX0712/stellar-ai-core) | 以「单一职责 + 清晰接口 + 能力注册表」组织 AI 能力，模块间只经抽象契约通信，可独立验证。 | 归档 |
+| 250 | [stellar-ai-stack](https://github.com/CJX0712/stellar-ai-stack) | 默认零依赖、离线可跑、确定性可验证：mock LLM + BLAKE2b 哈希嵌入 + 内存余弦索引… | 归档 |
+| 251 | [stellar-ai-workbench](https://github.com/CJX0712/stellar-ai-workbench) | 桌面 AI 工作台：统一模型网关（故障转移 + Mock）、可插拔 RAG、智能体编排、工具注册与记… | 归档 |
+| 253 | [stellar-nexus](https://github.com/CJX0712/stellar-nexus) | 可自证的复合智能系统：检索增强 + 自适应链路路由 + 断言级归因校验 + 智能体闭环 + 评测门禁… | 归档 |
+| 255 | [SubmodForge](https://github.com/CJX0712/SubmodForge) | 世界顶级子模优化库 · 数学保证 (1-1/e) · 精确 SFM · 零依赖 · 作者：晨星 | 活跃 |
+| 258 | [survforge](https://github.com/CJX0712/survforge) | SurvForge · 模块化生存分析：Cox / 样条 Cox / XGBoost AFT + C… | 活跃 |
+| 260 | [svmforge](https://github.com/CJX0712/svmforge) | svmforge — world-class kernel-SVM system (author 晨… | 活跃 |
+| 261 | [symforge](https://github.com/CJX0712/symforge) | SymForge: world-class symbolic regression / formul… | 活跃 |
+| 263 | [synthmind-forge](https://github.com/CJX0712/synthmind-forge) | SynthMind-Forge · RCG-NAS — 递归批判引导的神经网络架构搜索引擎。随机抽签… | 活跃 |
+| 264 | [tabulaforge](https://github.com/CJX0712/tabulaforge) | TabulaForge: 模块化自动化表格机器学习 (XGBoost + LightGBM + Op… | 活跃 |
+| 265 | [tabularofflineforge](https://github.com/CJX0712/tabularofflineforge) | TabularOfflineForge: 离线强化学习（Offline RL + OPE），以表格 … | 归档 |
+| 266 | [tekmor](https://github.com/CJX0712/tekmor) | 本地优先、端到端可验证的 RAG 知识库与证据锚定平台（Python 3.13 + 单文件 HTML… | 活跃 |
+| 267 | [tensorforge](https://github.com/CJX0712/tensorforge) | TensorForge v0.1.0 — 世界顶级张量分解系统 (作者: 晨星) | 活跃 |
+| 268 | [tianji-ai](https://github.com/CJX0712/tianji-ai) | 天玑 TIANJI · 世界顶级混合架构语言模型全栈：Gated DeltaNet × MLA × … | 活跃 |
+| 269 | [tianshu-ai](https://github.com/CJX0712/tianshu-ai) | 天枢 TianShu — 世界顶级 AI 系统：十层架构 · 元路由 · 融合旗舰 · 可证门禁。零… | 活跃 |
+| 271 | [topicforge](https://github.com/CJX0712/topicforge) | TopicForge · 世界级主题建模系统（LDA/NMF/TopicFuse），纯 NumPy … | 活跃 |
+| 272 | [topoforge](https://github.com/CJX0712/topoforge) | TopoForge — 持久同调拓扑数据分析（TDA）引擎：Vietoris-Rips 复形 + 标… | 活跃 |
+| 273 | [transforge](https://github.com/CJX0712/transforge) | TransForge · 可验证的最优传输系统：TF-epsKnee/TF-SPR/TF-UFlow… | 活跃 |
+| 277 | [tscforge](https://github.com/CJX0712/tscforge) | TscForge - deterministic time series classificatio… | 活跃 |
+| 278 | [tsforge](https://github.com/CJX0712/tsforge) | tsforge: 时间序列预测系统 — 复用 statsmodels/sklearn/pmdarim… | 活跃 |
+| 279 | [upliftforge](https://github.com/CJX0712/upliftforge) | UpliftForge · 世界顶级异质处理效应/增益建模(CATE)系统：交叉拟合 X/DR/R-… | 活跃 |
+| 280 | [vaeforge](https://github.com/CJX0712/vaeforge) | 世界级变分自编码器(VAE/IWAE)系统 —— 纯 numpy、离线、确定性可复现、CPU-onl… | 活跃 |
+| 281 | [valuaforge](https://github.com/CJX0712/valuaforge) | ValuaForge — 训练集数据点估值（Data Shapley / β-Shapley）：双锚… | 活跃 |
+| 282 | [vecforge](https://github.com/CJX0712/vecforge) | VecForge: 文档向量检索与聚类系统 (FAISS + scikit-learn 兜底) | 活跃 |
+| 283 | [veritas-ai](https://github.com/CJX0712/veritas-ai) | 不变量优先、可自进化的 Agent 运行时 —— 把「正确性」从测试环节提升到架构层。 | 活跃 |
+| 285 | [visionforge](https://github.com/CJX0712/visionforge) | VisionForge: CPU-only content-based image retrieva… | 活跃 |
+| 286 | [voiceforge](https://github.com/CJX0712/voiceforge) | VoiceForge: 语音/音频机器学习系统 — 复用 librosa/whisper/speec… | 活跃 |
+| 287 | [watermarkforge](https://github.com/CJX0712/watermarkforge) | watermarkforge: channel-diverse & distortion-free … | 活跃 |
+| 291 | [world-class-ai](https://github.com/CJX0712/world-class-ai) | 世界顶级 AI 系统 · 十层分解架构 · 第十层 1024 微指令（零重写·集大成·闭环交付·可验… | 归档 |
+| 294 | [worldai](https://github.com/CJX0712/worldai) | 本地优先、CPU 可跑、一键可复现的 RAG + Agent 平台 \| Local-first C… | 活跃 |
+| 295 | [worldai-nexus](https://github.com/CJX0712/worldai-nexus) | 本地优先的 RAG 链路：入库 → 混合检索 → 工具路由 → 生成；默认零依赖 Mock，可切 O… | 归档 |
+| 296 | [worldai-rag](https://github.com/CJX0712/worldai-rag) | 模块化 RAG + Agent 系统：faiss + BM25 混合检索 / ONNX 重排 / G… | 归档 |
+| 297 | [worldai-stack](https://github.com/CJX0712/worldai-stack) | RAG 知识库 + ReAct 工具智能体：FastEmbed(ONNX) / FAISS / Ra… | 归档 |
+| 298 | [worldforge-ai](https://github.com/CJX0712/worldforge-ai) | 零依赖核心、可插拔后端的端到端 AI 系统：算法内核 + 混合检索 + Agent + 网关 + 评… | 活跃 |
+| 299 | [worldrag](https://github.com/CJX0712/worldrag) | CJK 单字+双字 BM25（零依赖 tokenizer）+ 向量双路召回；独立索引评测 recal… | 归档 |
+| 302 | [zhi-rag](https://github.com/CJX0712/zhi-rag) | ZhiDa: Multimodal RAG engine — hybrid retrieval (B… | 活跃 |
+| 303 | [zhishu](https://github.com/CJX0712/zhishu) | 智枢 ZhiShu：本地优先、混合推理的企业级 AI 知识中枢与智能体平台（RAG + Agent，… | 活跃 |
 
 </details>
 
@@ -258,40 +257,40 @@
 | 156 | [microforge](https://github.com/CJX0712/microforge) | 世界顶级微型 LLM 工程栈：RMSNorm+RoPE+GQA+SwiGLU+FlashAttent… | 活跃 |
 | 159 | [moe-forge](https://github.com/CJX0712/moe-forge) | MoEForge · 纯JS手写混合专家(Mixture-of-Experts): Noisy To… | 活跃 |
 | 160 | [mojibake-er](https://github.com/CJX0712/mojibake-er) | 乱码急诊室 —— 把一段已经烂掉的乱码，反推回它本来应该是什么字。单文件 HTML，零依赖，完全离线… | 活跃 |
-| 178 | [nmf-forge](https://github.com/CJX0712/nmf-forge) | 手写 NMF（Lee-Seung 乘法更新 + ALS），Frobenius/KL 双散度，34/3… | 活跃 |
-| 179 | [nn-forge](https://github.com/CJX0712/nn-forge) | Single-file offline neural network forge: hand-wri… | 活跃 |
-| 192 | [orbit-forge](https://github.com/CJX0712/orbit-forge) | 引力锻造炉 — 单文件离线 2D n-body 引力模拟，速度 Verlet 积分，动量严格守恒/能… | 活跃 |
-| 193 | [ot-forge](https://github.com/CJX0712/ot-forge) | 手写熵正则化最优传输 / Sinkhorn 算法 (Wasserstein, Cuturi 2013… | 活跃 |
-| 195 | [pca-forge](https://github.com/CJX0712/pca-forge) | 主成分分析锻造炉：纯 JS 手写中心化 + 协方差 + 雅可比特征分解，幂迭代主成分与解析特征分解交… | 活跃 |
-| 205 | [prompt-terrain](https://github.com/CJX0712/prompt-terrain) | Prompt redundancy tomography - single-file HTML, z… | 活跃 |
-| 212 | [ray-forge](https://github.com/CJX0712/ray-forge) | 光线锻造炉 — 单文件离线光线追踪，多球+地面+漫反射/高光/阴影，相机环绕旋转，内置相交几何与光照… | 活跃 |
-| 221 | [rl-forge](https://github.com/CJX0712/rl-forge) | Single-file offline Q-learning forge cross-validat… | 活跃 |
-| 224 | [rs-forge](https://github.com/CJX0712/rs-forge) | Single-file offline Reed-Solomon FEC forge over GF… | 活跃 |
-| 225 | [rx-forge](https://github.com/CJX0712/rx-forge) | Single-file offline regex railway-diagram forge wi… | 活跃 |
-| 226 | [schema-dowser](https://github.com/CJX0712/schema-dowser) | 表格探矿仪 - 从 CSV 里探出隐藏的键、函数依赖、脏数据和本该拆出去的表，单文件 HTML 零依… | 活跃 |
-| 235 | [sort-forge](https://github.com/CJX0712/sort-forge) | 排序锻造炉 — 单文件离线排序算法动画，6 种算法逐帧可视化 + 比较/写入次数实测 + 确定性种子… | 活跃 |
-| 237 | [spectral-forge](https://github.com/CJX0712/spectral-forge) | 谱聚类实验室 - Spectral Clustering Lab: Ng-Jordan-Weiss … | 活跃 |
-| 242 | [starforge](https://github.com/CJX0712/starforge) | starforge ★ · GitHub 高星仓库榜单浏览器 — 247 真实仓库 / 12.25M… | 活跃 |
-| 251 | [stellar-forge](https://github.com/CJX0712/stellar-forge) | World-class Transformer forge: single-file, zero-d… | 归档 |
-| 255 | [sudo-forge](https://github.com/CJX0712/sudo-forge) | 种子数独锻造炉 — 单文件离线数独生成器/求解器，确定性种子 + 唯一解保证 | 活跃 |
-| 256 | [sudoku-lab](https://github.com/CJX0712/sudoku-lab) | Zero-dependency single-file Sudoku generator and s… | 活跃 |
-| 261 | [synth-forge](https://github.com/CJX0712/synth-forge) | 合成锻造炉 — 单文件离线合成器，4 种波形+ADSR 包络+确定性旋律种子，WebAudio 播放… | 活跃 |
-| 269 | [tinyml-lab](https://github.com/CJX0712/tinyml-lab) | TinyML Lab: from-scratch MLP with momentum, live d… | 活跃 |
-| 274 | [transformer-forge-v2](https://github.com/CJX0712/transformer-forge-v2) | Transformer Forge v2 - 单文件零依赖手写 decoder-only 因果 Tr… | 活跃 |
-| 275 | [tree-forge](https://github.com/CJX0712/tree-forge) | TreeForge 决策树锻造炉 — 纯 JS 手写决策树（熵/Gini）+ Bootstrap 随… | 活跃 |
-| 283 | [vi-forge](https://github.com/CJX0712/vi-forge) | 手写变分推断 (Mean-Field CAVI)：贝叶斯高斯混合 + 坐标上升变分推断，ELBO 闭… | 活跃 |
-| 287 | [wave-forge](https://github.com/CJX0712/wave-forge) | 单文件零依赖一维含时薛定谔实验台：手写 Crank-Nicolson，对照解析解，10/10 无头自… | 活跃 |
-| 288 | [wave-loom](https://github.com/CJX0712/wave-loom) | 坍缩织机 —— Wave Function Collapse 可视化织机。不靠随机堆砌图案，靠约束让… | 活跃 |
-| 289 | [word2vec-forge](https://github.com/CJX0712/word2vec-forge) | Word2Vec Forge - 单文件零依赖词向量实验室：手写 skip-gram+负采样，合成语… | 活跃 |
-| 291 | [world-class-ai-forge](https://github.com/CJX0712/world-class-ai-forge) | 单文件零依赖微型 Transformer 语言模型锻造炉：嵌入+RoPE+Pre-LN+多头注意力+… | 活跃 |
-| 299 | [xinghe-ai-forge](https://github.com/CJX0712/xinghe-ai-forge) | ✦ 星核 AI-Forge — 零依赖、单文件、可验证的世界级 AI 核心：数值线性代数 + 机器学… | 活跃 |
+| 179 | [nmf-forge](https://github.com/CJX0712/nmf-forge) | 手写 NMF（Lee-Seung 乘法更新 + ALS），Frobenius/KL 双散度，34/3… | 活跃 |
+| 180 | [nn-forge](https://github.com/CJX0712/nn-forge) | Single-file offline neural network forge: hand-wri… | 活跃 |
+| 193 | [orbit-forge](https://github.com/CJX0712/orbit-forge) | 引力锻造炉 — 单文件离线 2D n-body 引力模拟，速度 Verlet 积分，动量严格守恒/能… | 活跃 |
+| 194 | [ot-forge](https://github.com/CJX0712/ot-forge) | 手写熵正则化最优传输 / Sinkhorn 算法 (Wasserstein, Cuturi 2013… | 活跃 |
+| 196 | [pca-forge](https://github.com/CJX0712/pca-forge) | 主成分分析锻造炉：纯 JS 手写中心化 + 协方差 + 雅可比特征分解，幂迭代主成分与解析特征分解交… | 活跃 |
+| 206 | [prompt-terrain](https://github.com/CJX0712/prompt-terrain) | Prompt redundancy tomography - single-file HTML, z… | 活跃 |
+| 213 | [ray-forge](https://github.com/CJX0712/ray-forge) | 光线锻造炉 — 单文件离线光线追踪，多球+地面+漫反射/高光/阴影，相机环绕旋转，内置相交几何与光照… | 活跃 |
+| 222 | [rl-forge](https://github.com/CJX0712/rl-forge) | Single-file offline Q-learning forge cross-validat… | 活跃 |
+| 225 | [rs-forge](https://github.com/CJX0712/rs-forge) | Single-file offline Reed-Solomon FEC forge over GF… | 活跃 |
+| 226 | [rx-forge](https://github.com/CJX0712/rx-forge) | Single-file offline regex railway-diagram forge wi… | 活跃 |
+| 227 | [schema-dowser](https://github.com/CJX0712/schema-dowser) | 表格探矿仪 - 从 CSV 里探出隐藏的键、函数依赖、脏数据和本该拆出去的表，单文件 HTML 零依… | 活跃 |
+| 236 | [sort-forge](https://github.com/CJX0712/sort-forge) | 排序锻造炉 — 单文件离线排序算法动画，6 种算法逐帧可视化 + 比较/写入次数实测 + 确定性种子… | 活跃 |
+| 238 | [spectral-forge](https://github.com/CJX0712/spectral-forge) | 谱聚类实验室 - Spectral Clustering Lab: Ng-Jordan-Weiss … | 活跃 |
+| 243 | [starforge](https://github.com/CJX0712/starforge) | starforge ★ · GitHub 高星仓库榜单浏览器 — 247 真实仓库 / 12.25M… | 活跃 |
+| 252 | [stellar-forge](https://github.com/CJX0712/stellar-forge) | World-class Transformer forge: single-file, zero-d… | 归档 |
+| 256 | [sudo-forge](https://github.com/CJX0712/sudo-forge) | 种子数独锻造炉 — 单文件离线数独生成器/求解器，确定性种子 + 唯一解保证 | 活跃 |
+| 257 | [sudoku-lab](https://github.com/CJX0712/sudoku-lab) | Zero-dependency single-file Sudoku generator and s… | 活跃 |
+| 262 | [synth-forge](https://github.com/CJX0712/synth-forge) | 合成锻造炉 — 单文件离线合成器，4 种波形+ADSR 包络+确定性旋律种子，WebAudio 播放… | 活跃 |
+| 270 | [tinyml-lab](https://github.com/CJX0712/tinyml-lab) | TinyML Lab: from-scratch MLP with momentum, live d… | 活跃 |
+| 275 | [transformer-forge-v2](https://github.com/CJX0712/transformer-forge-v2) | Transformer Forge v2 - 单文件零依赖手写 decoder-only 因果 Tr… | 活跃 |
+| 276 | [tree-forge](https://github.com/CJX0712/tree-forge) | TreeForge 决策树锻造炉 — 纯 JS 手写决策树（熵/Gini）+ Bootstrap 随… | 活跃 |
+| 284 | [vi-forge](https://github.com/CJX0712/vi-forge) | 手写变分推断 (Mean-Field CAVI)：贝叶斯高斯混合 + 坐标上升变分推断，ELBO 闭… | 活跃 |
+| 288 | [wave-forge](https://github.com/CJX0712/wave-forge) | 单文件零依赖一维含时薛定谔实验台：手写 Crank-Nicolson，对照解析解，10/10 无头自… | 活跃 |
+| 289 | [wave-loom](https://github.com/CJX0712/wave-loom) | 坍缩织机 —— Wave Function Collapse 可视化织机。不靠随机堆砌图案，靠约束让… | 活跃 |
+| 290 | [word2vec-forge](https://github.com/CJX0712/word2vec-forge) | Word2Vec Forge - 单文件零依赖词向量实验室：手写 skip-gram+负采样，合成语… | 活跃 |
+| 292 | [world-class-ai-forge](https://github.com/CJX0712/world-class-ai-forge) | 单文件零依赖微型 Transformer 语言模型锻造炉：嵌入+RoPE+Pre-LN+多头注意力+… | 活跃 |
+| 300 | [xinghe-ai-forge](https://github.com/CJX0712/xinghe-ai-forge) | ✦ 星核 AI-Forge — 零依赖、单文件、可验证的世界级 AI 核心：数值线性代数 + 机器学… | 活跃 |
 
 </details>
 
-### JavaScript · 零依赖内核与工具 · 34（活跃 29）
+### JavaScript · 零依赖内核与工具 · 36（活跃 31）
 
 <details>
-<summary>展开 34 个仓库</summary>
+<summary>展开 36 个仓库</summary>
 
 | # | 仓库 | 一句话 | 状态 |
 | ---: | --- | --- | --- |
@@ -310,6 +309,7 @@
 | 101 | [flagship-rag-engine](https://github.com/CJX0712/flagship-rag-engine) | 旗舰端到端推理引擎+RAG · KV-Cache逐位等价 · BM25检索 · 零依赖 · 自检9/… | 活跃 |
 | 102 | [flagship-transformer](https://github.com/CJX0712/flagship-transformer) | 旗舰Transformer参考实现+基准 · 零依赖 · 反向自动微分 · RoPE/YaRN · … | 活跃 |
 | 105 | [forge-1024](https://github.com/CJX0712/forge-1024) | forge-1024 · AI 微指令内核：1024 条可验证微指令（6×102 + 4×103），… | 活跃 |
+| 106 | [forge-ai](https://github.com/CJX0712/forge-ai) | 世界级 AI 算法内核：从零手写 · 数学不变量可验证 · 与 sklearn/numpy 交叉验证… | 活跃 |
 | 107 | [forge-core](https://github.com/CJX0712/forge-core) | Forge Core：零依赖、可验证的世界级 AI 数值内核（autograd/SVD/Jacobi… | 活跃 |
 | 108 | [forgestack](https://github.com/CJX0712/forgestack) | forgestack: 本地可运行 AI 系统 — 复用 forest/spectral/bpe 三… | 活跃 |
 | 118 | [gradforge](https://github.com/CJX0712/gradforge) | ✦ gradforge · 世界顶级自动微分与最优化内核 (reverse-mode AD + Ne… | 活跃 |
@@ -318,17 +318,18 @@
 | 147 | [mambaforge](https://github.com/CJX0712/mambaforge) | 世界顶级选择性状态空间模型（Selective State-Space Model）· 零依赖纯 J… | 活跃 |
 | 162 | [morningforge](https://github.com/CJX0712/morningforge) | MorningForge · 零依赖、可被不变量交叉验证的 AI/ML 基础算法库（纯 JS ESM… | 归档 |
 | 165 | [morningstar-ai-engine](https://github.com/CJX0712/morningstar-ai-engine) | ✦ MorningStar AI Engine — 零依赖、数学可验证的世界顶级 AI 计算内核。集… | 归档 |
-| 182 | [nova-flagship-ai](https://github.com/CJX0712/nova-flagship-ai) | NovaFlagship 创新旗舰 AI —— 零运行时依赖的智能体引擎：OpenAI 兼容网关、M… | 活跃 |
-| 198 | [phosphor-ai](https://github.com/CJX0712/phosphor-ai) | Verification-first, zero-dependency AI numeric & a… | 活跃 |
-| 213 | [ray-forge-v2](https://github.com/CJX0712/ray-forge-v2) | 纯 JS CPU 光线追踪 · Whitted 风格 · 反射/折射/Fresnel/多重采样 AA… | 活跃 |
-| 241 | [StarAI-Kernel](https://github.com/CJX0712/StarAI-Kernel) | 世界顶级 AI 内核 · 纯 JS 零依赖 · 十层架构 · 23 项数学不变量逐条可验证 · 作者… | 活跃 |
-| 244 | [starforge-core](https://github.com/CJX0712/starforge-core) | StarForge Core: 世界级 AI 内核（纯JS/零依赖/数学可验证·梯度检验~1e-9·… | 活跃 |
-| 247 | [stellar-ai](https://github.com/CJX0712/stellar-ai) | 零依赖可验证 AI 内核：tape 自动微分 + RoPE/GQA/SwiGLU/MoE + KAN… | 活跃 |
-| 253 | [StellarAI](https://github.com/CJX0712/StellarAI) | 晨星·星核 StellarAI —— 本地优先多模态 AI 引擎：transformers.js(S… | 活跃 |
-| 258 | [svm-forge](https://github.com/CJX0712/svm-forge) | SVM 与核方法实验室 · SMO 解析子问题 / KKT 五条件 / 核技巧 == 显式 φ / … | 活跃 |
-| 273 | [transformer-forge](https://github.com/CJX0712/transformer-forge) | 从零手写的 mini-Transformer/GPT 实验室 — 零依赖、浏览器内训练、Node 无… | 活跃 |
-| 292 | [world-class-ai-foundation](https://github.com/CJX0712/world-class-ai-foundation) | 世界级 AI 引擎（基础内核）：零依赖、数值严谨、数学不变量自检 16/16 全绿。作者：晨星 | 活跃 |
-| 300 | [zenith-ai](https://github.com/CJX0712/zenith-ai) | Zenith · 零依赖纯JS世界顶级AI核心库. 15 modules, 24 mathemati… | 活跃 |
+| 167 | [morningstar-flagship-ai](https://github.com/CJX0712/morningstar-flagship-ai) | 晨星·旗舰 AI 引擎 — 零依赖、零构建、Float64 全精度的深度学习与经典机器学习引擎：反向… | 活跃 |
+| 183 | [nova-flagship-ai](https://github.com/CJX0712/nova-flagship-ai) | NovaFlagship 创新旗舰 AI —— 零运行时依赖的智能体引擎：OpenAI 兼容网关、M… | 活跃 |
+| 199 | [phosphor-ai](https://github.com/CJX0712/phosphor-ai) | Verification-first, zero-dependency AI numeric & a… | 活跃 |
+| 214 | [ray-forge-v2](https://github.com/CJX0712/ray-forge-v2) | 纯 JS CPU 光线追踪 · Whitted 风格 · 反射/折射/Fresnel/多重采样 AA… | 活跃 |
+| 242 | [StarAI-Kernel](https://github.com/CJX0712/StarAI-Kernel) | 世界顶级 AI 内核 · 纯 JS 零依赖 · 十层架构 · 23 项数学不变量逐条可验证 · 作者… | 活跃 |
+| 245 | [starforge-core](https://github.com/CJX0712/starforge-core) | StarForge Core: 世界级 AI 内核（纯JS/零依赖/数学可验证·梯度检验~1e-9·… | 活跃 |
+| 248 | [stellar-ai](https://github.com/CJX0712/stellar-ai) | 零依赖可验证 AI 内核：tape 自动微分 + RoPE/GQA/SwiGLU/MoE + KAN… | 活跃 |
+| 254 | [StellarAI](https://github.com/CJX0712/StellarAI) | 晨星·星核 StellarAI —— 本地优先多模态 AI 引擎：transformers.js(S… | 活跃 |
+| 259 | [svm-forge](https://github.com/CJX0712/svm-forge) | SVM 与核方法实验室 · SMO 解析子问题 / KKT 五条件 / 核技巧 == 显式 φ / … | 活跃 |
+| 274 | [transformer-forge](https://github.com/CJX0712/transformer-forge) | 从零手写的 mini-Transformer/GPT 实验室 — 零依赖、浏览器内训练、Node 无… | 活跃 |
+| 293 | [world-class-ai-foundation](https://github.com/CJX0712/world-class-ai-foundation) | 世界级 AI 引擎（基础内核）：零依赖、数值严谨、数学不变量自检 16/16 全绿。作者：晨星 | 活跃 |
+| 301 | [zenith-ai](https://github.com/CJX0712/zenith-ai) | Zenith · 零依赖纯JS世界顶级AI核心库. 15 modules, 24 mathemati… | 活跃 |
 
 </details>
 
@@ -354,7 +355,7 @@
 
 | # | 仓库 | 一句话 | 状态 |
 | ---: | --- | --- | --- |
-| 168 | [mstar](https://github.com/CJX0712/mstar) | mstar — AI 系统十层分解架构集大成项目：模块化分解 + 可验证门禁 + 闭环交付。作者：晨… | 归档 |
-| 218 | [repo-hygiene-gate](https://github.com/CJX0712/repo-hygiene-gate) | 最小仓库卫生门禁 · CI 冒烟验证模板 | 活跃 |
+| 169 | [mstar](https://github.com/CJX0712/mstar) | mstar — AI 系统十层分解架构集大成项目：模块化分解 + 可验证门禁 + 闭环交付。作者：晨… | 归档 |
+| 219 | [repo-hygiene-gate](https://github.com/CJX0712/repo-hygiene-gate) | 最小仓库卫生门禁 · CI 冒烟验证模板 | 活跃 |
 
 </details>
