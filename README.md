@@ -66,13 +66,13 @@
 ## 📊 数据看板
 
 <!-- STATS:START -->
-> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-25 16:34 UTC · 数字由 API 实拉，不靠手改
+> 由 GitHub Actions 自动刷新 · 最后更新 2026-10-25 20:59 UTC · 数字由 API 实拉，不靠手改
 
 | 指标 | 数值 |
 | --- | --- |
 | 公开仓库 | **309**（活跃 261 · 归档 48） |
 | Stars / Followers | **1** / **1** |
-| 代码体量 | ≈ 33.4 MB（GitHub 计 34,188 KB） |
+| 代码体量 | ≈ 34.4 MB（GitHub 计 35,176 KB） |
 | 语言分布 | Python 190 · HTML 73 · JavaScript 39 · TypeScript 5 · 其他 2 |
 | 活跃仓库 CI 覆盖 | **249/261**（95%） |
 | Fork | 0 |
@@ -84,7 +84,7 @@
 - [polaris-flagship-ai](https://github.com/CJX0712/polaris-flagship-ai) — 北极星 POLARIS - 晨星旗舰 AI 操作系统：llama.cpp 世界顶级引擎 x ifai 1024 微指… （今天）
 - [ziwei-ai](https://github.com/CJX0712/ziwei-ai) — 紫微 ZIWEI · 可验证推理闭环：在天玑混合架构基座之上，实现 RLVR + GRPO(DAPO/Dr.GRPO… （今天）
 - [ai-forge](https://github.com/CJX0712/ai-forge) — AI Forge / 星锻 — 零依赖、全自验证、可复现的 AI 系统（数值内核/自动微分/Muon·L-BFGS/… （今天）
-- [nexus-flagship](https://github.com/CJX0712/nexus-flagship) — NEXUS · 晨星旗舰 AI 操作系统：十层架构 + 1024 微指令 ISA，零依赖纯 JS，202 门禁全绿。… （今天）
+- [nexus-flagship](https://github.com/CJX0712/nexus-flagship) — NEXUS · 晨星旗舰 AI 操作系统：十层架构 + 1024 微指令 ISA，零依赖纯 JS，202 门禁全绿。… （1 天前）
 <!-- STATS:END -->
 
 ---
